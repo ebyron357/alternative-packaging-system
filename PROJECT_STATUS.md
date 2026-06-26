@@ -71,7 +71,7 @@ Phase 3 begins immediately:
 
 | # | Blocker | Phase Blocked | Urgency |
 |---|---|---|---|
-| B-01 | Hero A vector not received | Phase 4 | CRITICAL |
+| B-01 | Hero A + Wordmark vectors not available — TEMP placeholders in use | Phase 4 / Final Approval | CRITICAL — do not request from client at this time |
 | B-02 | ~~Typeface not confirmed~~ | ~~Phase 3~~ | ✅ RESOLVED — Söhne locked DEC-023 |
 | B-03 | CMYK + Pantone color values not provided | Phase 3 | HIGH |
 | B-04 | Metallic Gold reproduction method not confirmed with Canworks | Phase 3 | CRITICAL |

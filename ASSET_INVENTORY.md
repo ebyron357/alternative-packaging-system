@@ -28,9 +28,9 @@ Status codes: ✅ RECEIVED | 🟡 IN PROGRESS | 🔴 MISSING | ⛔ BLOCKED
 
 | Asset | Format | Required By | Status | Notes |
 |---|---|---|---|---|
-| ALTERNATIVE™ Master Wordmark | .ai or .eps, outlined | Phase 5 | 🔴 MISSING | Primary brandmark. Must be vector, fully outlined |
-| SESSION™ Sub-brand Wordmark | .ai or .eps, outlined | Phase 5 | 🔴 MISSING | Secondary brandmark. Must be vector, fully outlined |
-| Hero A | TBD | Phase 5 | 🔴 MISSING | Described as sacred brand element. Format and nature unknown pending Brand Bible |
+| ALTERNATIVE™ Master Wordmark | .ai or .eps, outlined | Phase 5 | ⚠️ TEMPORARY | Official vector not available. **TEMP_WORDMARK** placeholder in use on layer 03_BRAND — Söhne Halbfett live text, clearly labeled TEMPORARY. Final production blocked until official vector supplied. See R-01B. |
+| Hero A | .ai or .eps, outlined | Phase 5 | ⚠️ TEMPORARY | Official vector not available. **TEMP_HERO_A** placeholder in use on layer 03_BRAND — geometric shape clearly labeled TEMPORARY. Brand Bible prohibits recreation — placeholder is not a recreation. Final production blocked until official vector supplied. See R-01. |
+| SESSION™ Sub-brand Wordmark | .ai or .eps, outlined | Phase 5 | 🔴 MISSING | Secondary brandmark. Must be vector, fully outlined. |
 | Logo lockup — vertical | .ai | Phase 5 | 🔴 MISSING | Stacked configuration |
 | Logo lockup — horizontal | .ai | Phase 5 | 🔴 MISSING | Inline configuration |
 | Logo lockup — standalone mark | .ai | Phase 5 | 🔴 MISSING | Icon / mark only (if applicable) |
@@ -41,10 +41,10 @@ Status codes: ✅ RECEIVED | 🟡 IN PROGRESS | 🔴 MISSING | ⛔ BLOCKED
 
 | Asset | Format | Required By | Status | Notes |
 |---|---|---|---|---|
-| Primary Display Typeface | .otf / .ttf with print license | Phase 4 | 🟡 IDENTIFIED | Futura Bold confirmed in Canworks dieline PDF. Futura Medium also present. Font files not yet received — license must be confirmed. |
-| Secondary / Body Typeface | .otf / .ttf with print license | Phase 4 | 🟡 IDENTIFIED | Futura Medium likely serves body role. Confirm against Brand Bible. |
-| Typeface print license documentation | .pdf | Phase 4 | 🔴 MISSING | Must confirm commercial print rights for Futura Bold and Futura Medium. |
-| FDA Nutrition Facts typeface (Helvetica or approved equiv.) | .otf / .ttf | Phase 7 | 🔴 MISSING | Required for Nutrition Facts panel. |
+| Söhne — all approved weights | .otf files (Leicht, Buch, Halbfett, Kräftig) | Phase 3 | 🔴 MISSING — CLIENT ACTION | DEC-023 locked. Must download from klim.co.nz and install on production machine before Illustrator session. |
+| Söhne Commercial Print License | License documentation from Klim | Phase 3 / Pre-delivery | 🔴 MISSING — CLIENT ACTION | Must be purchased at klim.co.nz. Required before production file delivery to printer. Confirm print run volume at time of purchase. |
+| Söhne Desktop License | License documentation from Klim | Phase 3 | 🔴 MISSING — CLIENT ACTION | Required for production use on design machine. |
+| Helvetica Neue (FDA exception) | .otf / .ttf | Phase 6 | 🟡 LIKELY AVAILABLE | Required for Nutrition Facts table body only (CS-17 FDA exception). Available via Adobe Fonts or system install. Confirm before Phase 6. |
 
 ---
 

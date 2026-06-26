@@ -4,6 +4,31 @@
 
 ---
 
+## [2.3.0] — 2026-06-26 — Phase 3 Placeholder Strategy / Production Setup Document
+
+### Directive Applied
+Client directive: Hero A and wordmark vectors not available. Proceed with TEMP_HERO_A and TEMP_WORDMARK placeholders. Do not request assets again at this time.
+
+### Files Created
+- PHASE3_PRODUCTION_SETUP.md (v1.0) — complete Illustrator session specification:
+  11 sections covering document setup, layer structure, swatches, placeholder specs,
+  Character Styles, Paragraph Styles, background, panel guides, zone guides,
+  Phase 3 gate checklist, and placeholder swap protocol
+
+### Files Updated
+- RISK_REGISTER.md (v2.1) — R-01 escalated with placeholder strategy documented;
+  R-01B added for wordmark vector specifically; both remain CRITICAL
+- ASSET_INVENTORY.md — Hero A and wordmark marked ⚠️ TEMPORARY;
+  Typography section updated from Futura to Söhne
+- PROJECT_STATUS.md — B-01 updated to reflect placeholder approach
+
+### Production Status
+- Phase 3: IN PROGRESS — all documentation complete
+- TEMP_HERO_A and TEMP_WORDMARK: construction specifications locked in PHASE3_PRODUCTION_SETUP.md
+- Final production approval: BLOCKED pending official vectors (do not request from client at this time)
+
+---
+
 ## [2.2.0] — 2026-06-26 — Typography Corrections Applied / DEC-023 Final Lock
 
 ### Client Corrections Applied (three)

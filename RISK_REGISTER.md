@@ -1,7 +1,7 @@
 # ALTERNATIVE™ LABEL PROGRAM — RISK REGISTER
 **Program Director:** Claude (AI Production System)
 **Last Updated:** 2026-06-26
-**Version:** 2.0 — Updated after Brand Bible evaluation
+**Version:** 2.1 — Placeholder strategy documented / Hero A + Wordmark vector blocker escalated
 
 Risk ratings: Impact and Probability scored 1–5. Risk Score = Impact × Probability.
 Threshold: Score ≥ 15 = CRITICAL | 10–14 = HIGH | 5–9 = MEDIUM | 1–4 = LOW
@@ -10,16 +10,35 @@ Threshold: Score ≥ 15 = CRITICAL | 10–14 = HIGH | 5–9 = MEDIUM | 1–4 = L
 
 ## ACTIVE RISKS — CRITICAL
 
-### R-01 — Hero A Vector Not Received
+### R-01 — Hero A Vector + Official Wordmark Not Received — PRODUCTION BLOCKER
 | Field | Value |
 |---|---|
-| **Description** | The Hero A is the most sacred brand element. The Brand Bible states only the approved vector may be used — it must never be recreated. The vector has not been received. |
-| **Impact** | 5 — Cannot build front panel. Phase 3 (Illustrator Setup) can begin structure, but Phase 4 (Master Construction) is fully blocked without Hero A. |
-| **Probability** | 5 — Confirmed missing. |
+| **Description** | Neither the official Hero A vector nor the official ALTERNATIVE™ wordmark vector have been received. The Brand Bible states the Hero A may never be recreated — only the approved vector may be used. Same protection applies to the official wordmark. Both assets are the brand's primary identity marks. |
+| **Impact** | 5 — Final production label cannot be approved without these vectors. |
+| **Probability** | 5 — Confirmed not available at this time. |
 | **Risk Score** | 25 — CRITICAL |
-| **Mitigation** | Reserve Hero A layer (03_BRAND) in Illustrator with correct scale placeholder. Do not proceed to Phase 4 without the vector. |
+| **Current State** | TEMP_HERO_A and TEMP_WORDMARK placeholders in use on layer 03_BRAND. Placeholders are live editable text/shapes clearly labeled TEMPORARY. Grid and layout are built to receive official vectors with zero repositioning. |
+| **Production Approval** | BLOCKED — Final production approval requires official vectors before print release. |
+| **Constraint** | Do not ask client for these assets again at this time. Proceed with placeholders. |
+| **Mitigation** | Placeholders built per placeholder specification (see PHASE3_PRODUCTION_SETUP.md). Grid locked so vectors drop in without layout changes. Both assets flagged TEMPORARY in ASSET_INVENTORY.md. Neither placeholder is treated as final or permanent. |
 | **Owner** | Client |
-| **Status** | 🔴 OPEN |
+| **Priority** | 🔴 HIGH — Final production approval blocked until vectors supplied |
+| **Status** | 🔴 OPEN — Proceeding with TEMPORARY placeholders |
+
+---
+
+### R-01B — Official Wordmark Vector Not Received
+| Field | Value |
+|---|---|
+| **Description** | The official ALTERNATIVE™ vector wordmark has not been received. CS-02 specifies the vector wordmark as primary; Söhne Halbfett is the approved fallback. The fallback is currently in use. If the brand has a custom-drawn or heavily modified wordmark, the Söhne fallback will not match it at production. |
+| **Impact** | 4 — Wordmark is second only to Hero A in brand hierarchy. A Söhne-set fallback may differ significantly from an official custom wordmark. |
+| **Probability** | 4 — Vector wordmark not available at this time. |
+| **Risk Score** | 16 — CRITICAL |
+| **Current State** | TEMP_WORDMARK placeholder using Söhne Halbfett per CS-02 fallback spec. |
+| **Production Approval** | BLOCKED — Final production requires official wordmark vector or explicit client confirmation that Söhne Halbfett is the intended permanent wordmark. |
+| **Owner** | Client |
+| **Priority** | 🔴 HIGH |
+| **Status** | 🔴 OPEN — Proceeding with TEMP_WORDMARK (Söhne Halbfett fallback) |
 
 ---
 
