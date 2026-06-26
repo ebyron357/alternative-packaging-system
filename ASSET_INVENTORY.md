@@ -20,7 +20,7 @@ Status codes: ✅ RECEIVED | 🟡 IN PROGRESS | 🔴 MISSING | ⛔ BLOCKED
 
 | Asset | Format | Required By | Status | Notes |
 |---|---|---|---|---|
-| Canworks 12 oz Sleek Can Flat Wrap Dieline | .ai or .pdf | Phase 4 | 🔴 MISSING | Locked — do not modify. Confirms: artboard dims, bleed, safe zone, seam location |
+| Canworks 12 oz Sleek Can Flat Wrap Dieline | .pdf (13 pages) | Phase 4 | ✅ RECEIVED | Page dimensions: 182.22mm × 148.00mm (516.529 × 419.528 pt). Fonts embedded: Futura Bold, Futura Medium. Created 2025-05-14. Note: PDF cannot be rendered without poppler — actual bleed/safe zone values require Illustrator to open the source. Artboard art area TBD from AI source. |
 
 ---
 
@@ -41,10 +41,10 @@ Status codes: ✅ RECEIVED | 🟡 IN PROGRESS | 🔴 MISSING | ⛔ BLOCKED
 
 | Asset | Format | Required By | Status | Notes |
 |---|---|---|---|---|
-| Primary Display Typeface | .otf / .ttf with print license | Phase 4 | 🔴 MISSING | Used for ALTERNATIVE™, SESSION™ display |
-| Secondary / Body Typeface | .otf / .ttf with print license | Phase 4 | 🔴 MISSING | Used for compliance, descriptors, body copy |
-| Typeface print license documentation | .pdf | Phase 4 | 🔴 MISSING | Must confirm commercial print rights for both faces |
-| FDA Nutrition Facts typeface (Helvetica or approved equiv.) | .otf / .ttf | Phase 7 | 🔴 MISSING | Required for Nutrition Facts panel |
+| Primary Display Typeface | .otf / .ttf with print license | Phase 4 | 🟡 IDENTIFIED | Futura Bold confirmed in Canworks dieline PDF. Futura Medium also present. Font files not yet received — license must be confirmed. |
+| Secondary / Body Typeface | .otf / .ttf with print license | Phase 4 | 🟡 IDENTIFIED | Futura Medium likely serves body role. Confirm against Brand Bible. |
+| Typeface print license documentation | .pdf | Phase 4 | 🔴 MISSING | Must confirm commercial print rights for Futura Bold and Futura Medium. |
+| FDA Nutrition Facts typeface (Helvetica or approved equiv.) | .otf / .ttf | Phase 7 | 🔴 MISSING | Required for Nutrition Facts panel. |
 
 ---
 
@@ -67,20 +67,20 @@ Status codes: ✅ RECEIVED | 🟡 IN PROGRESS | 🔴 MISSING | ⛔ BLOCKED
 
 | Asset | Format | Required By | Status | Notes |
 |---|---|---|---|---|
-| Final Ingredient List | .txt / .docx | Phase 7 | 🔴 MISSING | In INCI/regulatory order. Exact final copy only |
-| Allergen Statement | .txt | Phase 7 | 🔴 MISSING | Derived from ingredient list. Counsel-reviewed |
-| Net Contents Statement | Confirmed text | Phase 5 | 🔴 MISSING | "12 FL OZ (355 mL)" — confirm exact legal format |
-| THC Per Serving — confirmed mg | Value | Phase 5 | 🟡 PARTIAL | Brief states 5MG — confirm serving count per can |
-| THC Per Container — confirmed mg | Value | Phase 5 | 🔴 MISSING | Total THC in full 12 oz can |
-| Serving Size | Value + unit | Phase 7 | 🔴 MISSING | "X FL OZ (XmL)" — confirm from manufacturer |
-| Servings Per Container | Value | Phase 7 | 🔴 MISSING | Typically 1 for a 12 oz single-serve beverage |
-| Calories Per Serving | Value | Phase 7 | 🔴 MISSING | From certified lab analysis |
-| Total Fat / Sat Fat / Trans Fat | Values + %DV | Phase 7 | 🔴 MISSING | From certified lab analysis |
-| Cholesterol | Value + %DV | Phase 7 | 🔴 MISSING | From certified lab analysis |
-| Sodium | Value + %DV | Phase 7 | 🔴 MISSING | From certified lab analysis |
-| Total Carbohydrate / Fiber / Sugars / Added Sugars | Values + %DV | Phase 7 | 🔴 MISSING | From certified lab analysis |
-| Protein | Value | Phase 7 | 🔴 MISSING | From certified lab analysis |
-| Vitamin D / Calcium / Iron / Potassium | Values + %DV | Phase 7 | 🔴 MISSING | From certified lab analysis |
+| Final Ingredient List (Passion Fruit) | Image ref — needs text confirmation | Phase 7 | 🟡 PARTIAL | From IMG_3978: "Carbonated Water, Natural Passion Fruit Flavor, Hemp Derived THC." ⚠️ FLAG-01: "Hemp Derived THC" vs "Hemp-Derived Delta-9 THC" — legal counsel must confirm exact regulated term |
+| Allergen Statement | .txt | Phase 7 | 🟡 PARTIAL | No apparent allergens in current ingredient list. Manufacturer must confirm no allergen cross-contact. |
+| Net Contents Statement | Confirmed | Phase 5 | ✅ CONFIRMED | 12 FL OZ (355 mL) |
+| THC Per Serving — confirmed mg | Value | Phase 5 | ✅ CONFIRMED | 5MG |
+| THC Per Container — confirmed mg | Value | Phase 5 | ✅ CONFIRMED | 5MG (1 serving per container) |
+| Serving Size | Value + unit | Phase 7 | ✅ CONFIRMED | 12 Ounces (1 can) |
+| Servings Per Container | Value | Phase 7 | ✅ CONFIRMED | 1 |
+| Calories Per Serving | Value | Phase 7 | ✅ CONFIRMED | 0 |
+| Total Fat / Sat Fat / Trans Fat | Values + %DV | Phase 7 | ✅ CONFIRMED | 0g / 0g / 0g — all 0% DV |
+| Cholesterol | Value + %DV | Phase 7 | ✅ CONFIRMED | 0mg — 0% DV |
+| Sodium | Value + %DV | Phase 7 | ✅ CONFIRMED | 0mg — 0% DV |
+| Total Carbohydrate / Fiber / Sugars / Added Sugars | Values + %DV | Phase 7 | ✅ CONFIRMED | 0g / 0g / 0g / 0g — all 0% DV |
+| Protein | Value | Phase 7 | ✅ CONFIRMED | 0g |
+| Vitamin D / Calcium / Iron / Potassium | Values + %DV | Phase 7 | ⚠️ FLAG-01 | Not shown on panel image. If all 0% DV, may be omitted per FDA. Must be confirmed by manufacturer before panel is finalized. |
 | THC Cannabinoid Panel (if required separately) | Values | Phase 7 | 🔴 MISSING | Some states require cannabinoid breakdown |
 
 ---
@@ -165,23 +165,23 @@ Status codes: ✅ RECEIVED | 🟡 IN PROGRESS | 🔴 MISSING | ⛔ BLOCKED
 
 ## ASSET SUMMARY
 
-| Category | Total Assets | Received | Missing |
-|---|---|---|---|
-| Brand Documents | 2 | 0 | 2 |
-| Production Dieline | 1 | 0 | 1 |
-| Logos & Wordmarks | 6 | 0 | 6 |
-| Typography | 4 | 0 | 4 |
-| Color System | 8 | 0 | 8 |
-| Product Content | 17 | 0 | 17 |
-| Manufacturer & Legal | 7 | 0 | 7 |
-| Compliance Copy | 14 | 0 | 14 |
-| Barcode | 3 | 0 | 3 |
-| QR Code | 5 | 0 | 5 |
-| Printer Specifications | 5 | 0 | 5 |
-| Reference / Inspiration | 2 | 0 | 2 |
-| **TOTAL** | **74** | **0** | **74** |
+| Category | Total Assets | Confirmed | Partial/ID'd | Missing |
+|---|---|---|---|---|
+| Brand Documents | 2 | 0 | 0 | 2 |
+| Production Dieline | 1 | 1 | 0 | 0 |
+| Logos & Wordmarks | 6 | 0 | 0 | 6 |
+| Typography | 4 | 0 | 2 | 2 |
+| Color System | 8 | 0 | 0 | 8 |
+| Product Content | 17 | 12 | 3 | 2 |
+| Manufacturer & Legal | 7 | 0 | 0 | 7 |
+| Compliance Copy | 14 | 0 | 3 | 11 |
+| Barcode | 3 | 0 | 0 | 3 |
+| QR Code | 5 | 0 | 0 | 5 |
+| Printer Specifications | 5 | 0 | 0 | 5 |
+| Reference / Inspiration | 2 | 0 | 0 | 2 |
+| **TOTAL** | **74** | **13** | **8** | **53** |
 
-**0 of 74 required assets received.**
+**13 of 74 assets confirmed. 8 partially identified. 53 still missing.**
 
 ---
 
