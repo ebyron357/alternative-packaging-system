@@ -2,8 +2,8 @@
 **Document:** Brand Typography + Design System
 **Program Director:** Claude (AI Production System)
 **Date:** 2026-06-26
-**Version:** 1.0 — Söhne typography system locked (DEC-023)
-**Status:** ✅ ACTIVE — Typography locked. Color values TBD. Hero A pending.
+**Version:** 1.1 — Three client corrections applied and approved. DEC-023 FINAL LOCK.
+**Status:** ✅ ACTIVE — Typography fully locked. Color values TBD. Hero A pending.
 
 ---
 
@@ -33,8 +33,8 @@ The following weights are approved for use in the ALTERNATIVE™ system:
 
 | Weight Name | German Name | Role |
 |---|---|---|
-| Söhne Leicht | Leicht | Tagline, dose callout, category, net contents, display body, small labels |
-| Söhne Buch | Buch (Book) | Flavor name, body copy, compliance, ingredients, manufacturer info, lot/batch |
+| Söhne Leicht | Leicht | Tagline, category, net contents, display body, small labels, QR label |
+| Söhne Buch | Buch (Book) | THC strength, flavor name, body copy, compliance, ingredients, manufacturer info, lot/batch |
 | Söhne Halbfett | Halbfett (Semibold) | ALTERNATIVE™ wordmark, information headings, Nutrition Facts headers |
 | Söhne Kräftig | Kräftig (Bold) | Available for emphasis only — use sparingly |
 
@@ -84,15 +84,17 @@ These 17 Character Styles are the required set for the ALTERNATIVE™ production
 
 | Attribute | Value |
 |---|---|
-| Typeface | Söhne Halbfett (Semibold) |
+| **Primary** | Official ALTERNATIVE™ vector wordmark — use if available |
+| **Fallback only** | Söhne Halbfett (Semibold) — approved fallback if no official vector wordmark exists |
 | Case | All caps |
 | Size | Large display — optically dominant below Hero A |
-| Tracking | +20 to +50 (tight for authority, not compressed) |
+| Tracking | +20 to +50 if Söhne fallback is used (tight for authority, not compressed) |
 | Leading | 120% |
 | Color | Brand_Warm_White_TBD |
 | Alignment | Centered |
 | TM symbol | Manually scaled to cap height (not default superscript). Baseline-aligned to cap top. |
-| Notes | The wordmark is the brand's name. It commands without competing with Hero A. Söhne Halbfett has enough authority to hold this position while remaining readable at reduced sizes. |
+| Notes | If the official ALTERNATIVE™ vector wordmark is received, it supersedes the Söhne fallback entirely. The vector wordmark is placed as a locked vector object on layer 03_BRAND. If no vector wordmark exists, Söhne Halbfett is set with these specifications. The fallback must never be used alongside an available vector — they are mutually exclusive. |
+| **Asset Status** | 🔴 Vector wordmark not yet received — Söhne Halbfett fallback in use until confirmed |
 
 ---
 
@@ -117,13 +119,14 @@ These 17 Character Styles are the required set for the ALTERNATIVE™ production
 
 | Attribute | Value |
 |---|---|
-| Typeface | Söhne Leicht |
+| Typeface | Söhne Buch (Book) — preferred. Söhne Halbfett (Semibold) if additional shelf-distance weight is required. |
 | Case | All caps |
-| Size | Smaller than product line — functional, not decorative |
-| Tracking | +100 to +150 |
+| Size | Smaller than product line — functional, clear, shelf-readable |
+| Tracking | +80 to +120 |
 | Leading | 120% |
 | Color | Brand_Warm_White_TBD |
-| Notes | Dose information is a functional declaration. It must be legible and precise. Leicht weight prevents it from competing with the brand name levels above it. Tracking keeps it open and readable. |
+| Notes | THC strength is a primary purchase decision driver. It must remain clearly readable from shelf distance and must not become too delicate. Söhne Buch provides legibility and weight without competing with the ALTERNATIVE™ wordmark above it. If the layout reveals that Buch is still insufficient at production size, Halbfett is approved. Final weight confirmed at Phase 4 layout review. |
+| **Correction** | Revised from Söhne Leicht to Söhne Buch / Halbfett per client direction — 2026-06-26 |
 
 ---
 
@@ -304,7 +307,7 @@ These 17 Character Styles are the required set for the ALTERNATIVE™ production
 
 ---
 
-#### CS-17 — NUTRITION FACTS TABLE BODY (FDA Exception)
+#### CS-17 — NUTRITION FACTS TABLE BODY (FDA Compliance Exception — Not a Brand Exception)
 **Text:** All nutrient names, values, % DV within the Nutrition Facts table
 
 | Attribute | Value |
@@ -313,7 +316,10 @@ These 17 Character Styles are the required set for the ALTERNATIVE™ production
 | Case | Per FDA Nutrition Facts panel specification |
 | Size | Per FDA specification |
 | Color | Brand_Matte_Black_TBD (on white field) |
-| Notes | **Regulatory compliance exception.** FDA-approved typeface required for the Nutrition Facts table body. This is the only text element on the ALTERNATIVE™ label that does not use Söhne. This exception is documented in DEC-023 and does not represent a brand typography deviation. |
+| **Exception Scope** | Nutrition Facts table body text only — this exception does not extend to any other element |
+| **Brand Typography System** | Söhne remains the exclusive ALTERNATIVE™ brand typeface. This exception does not alter, modify, or create a secondary brand typeface. |
+| **Why Helvetica Neue** | FDA's Nutrition Facts format guidelines establish specific typographic conventions for the panel table. Helvetica Neue is the industry-standard compliant typeface for this element. It is used here because the regulation requires it — not because it is part of the brand system. |
+| Notes | This exception is fully contained within the Nutrition Facts panel boundary. No Helvetica Neue appears anywhere else on the label under any circumstance. Future operators must not interpret CS-17 as permission to use Helvetica Neue outside the panel. The Nutrition Facts panel header ("Nutrition Facts" title) uses Söhne Halbfett per CS-16 — only the table body rows use this exception. |
 
 ---
 

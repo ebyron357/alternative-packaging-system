@@ -81,9 +81,9 @@ All other values are confirmed from Brand Bible Version 1.0 or product data rece
 | Style Level | Text Element | Söhne Weight | Size Guidance | Treatment |
 |---|---|---|---|---|
 | CS-01 | Tagline — A NEW STATE OF MIND | Leicht (Light) | Display | All caps, wide tracking |
-| CS-02 | ALTERNATIVE™ Wordmark | Halbfett (Semibold) | Large display | All caps, optically aligned |
+| CS-02 | ALTERNATIVE™ Wordmark | Vector wordmark (primary) / Halbfett fallback only | Large display | Vector preferred; Söhne only if no vector exists |
 | CS-03 | SESSION™ / Product Line | Buch (Book) or Leicht | Medium display | All caps, tracked |
-| CS-04 | THC Strength — 5MG THC PER CAN | Leicht (Light) | Medium | All caps, tracked |
+| CS-04 | THC Strength — 5MG THC PER CAN | Buch (Book) / Halbfett | Medium | All caps, tracked — shelf-readable weight |
 | CS-05 | Category — HEMP-DERIVED THC BEVERAGE | Leicht (Light) | Small display | All caps, tracked |
 | CS-06 | Flavor — PASSION FRUIT | Buch (Book) | Medium | Title case or all caps |
 | CS-07 | Net Contents — 12 FL OZ (355 mL) | Leicht (Light) | Small | Per regulatory convention |

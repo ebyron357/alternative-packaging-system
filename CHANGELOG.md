@@ -4,6 +4,24 @@
 
 ---
 
+## [2.2.0] — 2026-06-26 — Typography Corrections Applied / DEC-023 Final Lock
+
+### Client Corrections Applied (three)
+- C-01: CS-02 Wordmark — vector wordmark is primary; Söhne Halbfett is approved fallback only
+- C-02: CS-04 THC Strength — revised from Söhne Leicht to Söhne Buch / Halbfett for shelf readability
+- C-03: CS-17 FDA Exception — explicitly documented as compliance exception only; does not alter brand typography system
+
+### Files Updated
+- BRAND_DESIGN_SYSTEM.md (v1.0 → v1.1) — three corrections applied to CS-02, CS-04, CS-17
+- DECISIONS_LOG.md — DEC-023 correction table added, status updated to FINAL LOCK
+- LABEL_SPECIFICATION.md (v2.1 → v2.1 corrected) — CS-02 and CS-04 updated
+- PROJECT_STATUS.md — Phase 3 active, 42% overall, current phase updated
+
+### Decision Status
+- DEC-023: ✅ FINAL LOCK — typography system approved with corrections
+
+---
+
 ## [2.1.0] — 2026-06-26 — Typography Locked / Phase 3 Active
 
 ### Decision Locked

@@ -162,8 +162,16 @@
 | **Scope** | All ALTERNATIVE™ brand text: display, body, compliance, information, codes panel labels, Nutrition Facts panel headers, all future SKUs. |
 | **Exceptions** | FDA Nutrition Facts table body text: Helvetica Neue or equivalent FDA-approved font per regulatory requirement. This is a compliance exception, not a brand exception. |
 | **Made By** | Client — APPROVED |
-| **Status** | ✅ CONFIRMED — LOCKED |
+| **Status** | ✅ CONFIRMED — FINAL LOCK (corrections applied 2026-06-26) |
 | **Supersedes** | DEC-P001 (Futura inquiry — now closed and superseded) |
+
+**Approved Corrections Applied Before Final Lock:**
+
+| # | Element | Original Spec | Corrected Spec |
+|---|---|---|---|
+| C-01 | CS-02 Wordmark | Söhne Halbfett (primary) | Vector wordmark (primary) — Söhne Halbfett approved as fallback only if no official vector exists |
+| C-02 | CS-04 THC Strength | Söhne Leicht | Söhne Buch (preferred) or Söhne Halbfett — must remain shelf-readable; Leicht is too delicate for dose information |
+| C-03 | CS-17 FDA Exception | Documented as exception | Explicitly documented: Helvetica Neue is a compliance/readability exception only. Does not alter the ALTERNATIVE™ brand typography system. Söhne remains the exclusive brand typeface. |
 
 ---
 
