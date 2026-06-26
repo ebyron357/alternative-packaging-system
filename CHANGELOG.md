@@ -4,6 +4,32 @@
 
 ---
 
+## [2.1.0] — 2026-06-26 — Typography Locked / Phase 3 Active
+
+### Decision Locked
+- DEC-023: Söhne (Klim Type Foundry) confirmed as official ALTERNATIVE™ brand typeface
+- DEC-P001 (Futura inquiry) closed and superseded by DEC-023
+- Typography system fully documented — 17 Character Styles, 14 Paragraph Styles
+
+### Files Created
+- BRAND_DESIGN_SYSTEM.md (v1.0) — complete typography + design system specification
+
+### Files Updated
+- DECISIONS_LOG.md (v1.1 → v1.2) — DEC-023 locked, DEC-P001 superseded
+- TYPOGRAPHY_SYSTEMS.md — status updated to LOCKED / SÖHNE SELECTED
+- LABEL_SPECIFICATION.md (v2.0 → v2.1) — typography section locked with full CS table
+- PROJECT_STATUS.md — progress updated 35% → 40%, Phase 3 active, B-02 resolved
+
+### Phase 3 Status
+- Typography blocker RESOLVED
+- Phase 3 (Illustrator Production Setup) now active
+- Remaining Phase 3 blocker: Hero A vector not received
+
+### Risks Updated
+- R-02 (Typeface not confirmed) — CLOSED / RESOLVED
+
+---
+
 ## [2.0.0] — 2026-06-26 — Brand Bible Evaluation Complete / Phase 2 CLOSED
 
 ### Phase 2 — Brand System Verification: COMPLETE

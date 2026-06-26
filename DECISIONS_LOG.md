@@ -148,16 +148,32 @@
 
 ---
 
-## DECISIONS — PENDING CLIENT INPUT
+---
 
-### DEC-P001
+### DEC-023
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision Required** | IS THE BRAND TYPEFACE FUTURA? Futura Bold + Futura Medium were found embedded in the Canworks dieline PDF. The Brand Bible defines typographic direction in strong terms but does not name a specific typeface. One-word confirmation ("Yes, Futura") unlocks Phase 3 document setup immediately. |
-| **Impact** | Unlocks all typographic work. Without this, character styles cannot be built. |
-| **Urgency** | CRITICAL — Phase 3 blocker |
-| **Status** | 🔴 OPEN — Awaiting client confirmation |
+| **Decision** | BRAND TYPEFACE — LOCKED: Söhne (Klim Type Foundry, New Zealand) is the official and exclusive ALTERNATIVE™ brand typeface. Söhne becomes the foundation of the complete typography system across all SKUs, all panels, all hierarchy levels, all future product lines. No other typeface may be used for brand typography without a new locked decision. |
+| **Foundry** | Klim Type Foundry — klim.co.nz |
+| **Classification** | Warm modernist grotesque |
+| **License Required** | Commercial print license — Print + Desktop. Must be purchased from klim.co.nz before production files are delivered. |
+| **Rationale** | Aligns with Brand Bible direction (premium editorial, architectural, confident). Communicates luxury without announcing itself. Warm enough to avoid corporate coldness. Distinctive enough to be immediately recognized at scale. Correct signal for a super-premium beverage brand. Wrong for cannabis, supplements, and energy drinks — which is exactly the point. |
+| **Scope** | All ALTERNATIVE™ brand text: display, body, compliance, information, codes panel labels, Nutrition Facts panel headers, all future SKUs. |
+| **Exceptions** | FDA Nutrition Facts table body text: Helvetica Neue or equivalent FDA-approved font per regulatory requirement. This is a compliance exception, not a brand exception. |
+| **Made By** | Client — APPROVED |
+| **Status** | ✅ CONFIRMED — LOCKED |
+| **Supersedes** | DEC-P001 (Futura inquiry — now closed and superseded) |
+
+---
+
+## DECISIONS — PENDING CLIENT INPUT
+
+### DEC-P001 — SUPERSEDED
+| Field | Value |
+|---|---|
+| **Status** | ✅ CLOSED — Superseded by DEC-023 |
+| **Resolution** | Söhne confirmed as brand typeface. Futura assumption explicitly rejected. Futura in Canworks dieline was template documentation only, not brand direction. |
 
 ---
 

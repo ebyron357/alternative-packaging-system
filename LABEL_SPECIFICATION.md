@@ -4,7 +4,7 @@
 **Format:** 12 oz Sleek Can / Flat Wrap Label
 **Program Director:** Claude (AI Production System)
 **Last Updated:** 2026-06-26
-**Version:** 2.0 — Updated from Brand Bible evaluation
+**Version:** 2.1 — Typography locked (DEC-023): Söhne / Klim Type Foundry
 
 Values marked [LOCK REQUIRED] require additional confirmation before Illustrator finalizes that element.
 All other values are confirmed from Brand Bible Version 1.0 or product data received.
@@ -74,11 +74,29 @@ All other values are confirmed from Brand Bible Version 1.0 or product data rece
 
 **Note:** CMYK and Pantone values for all three colors must be extracted from Brand Bible source files or confirmed by client. The names and roles above are locked from the Brand Bible. Exact ink values remain open.
 
-### 2.3 Typography System
-| Role | Typeface | Weight | Status |
-|---|---|---|---|
-| All display + body | [LOCK REQUIRED — Brand Bible names no specific typeface] | [LOCK REQUIRED] | 🟡 Futura Bold + Futura Medium identified in Canworks dieline — likely the brand typeface. Requires explicit client confirmation. See FLAG-02. |
-| Nutrition Facts panel | Helvetica or FDA-approved equivalent | Bold / Regular | ✅ Per FDA requirement |
+### 2.3 Typography System — LOCKED (DEC-023)
+**Brand Typeface:** Söhne — Klim Type Foundry (klim.co.nz)
+**License:** Commercial Print + Desktop — purchase required before production delivery.
+
+| Style Level | Text Element | Söhne Weight | Size Guidance | Treatment |
+|---|---|---|---|---|
+| CS-01 | Tagline — A NEW STATE OF MIND | Leicht (Light) | Display | All caps, wide tracking |
+| CS-02 | ALTERNATIVE™ Wordmark | Halbfett (Semibold) | Large display | All caps, optically aligned |
+| CS-03 | SESSION™ / Product Line | Buch (Book) or Leicht | Medium display | All caps, tracked |
+| CS-04 | THC Strength — 5MG THC PER CAN | Leicht (Light) | Medium | All caps, tracked |
+| CS-05 | Category — HEMP-DERIVED THC BEVERAGE | Leicht (Light) | Small display | All caps, tracked |
+| CS-06 | Flavor — PASSION FRUIT | Buch (Book) | Medium | Title case or all caps |
+| CS-07 | Net Contents — 12 FL OZ (355 mL) | Leicht (Light) | Small | Per regulatory convention |
+| CS-08 | Information Panel Headings | Halbfett (Semibold) | 8–10pt | All caps |
+| CS-09 | Body Copy | Buch (Book) | 7–9pt | Mixed case |
+| CS-10 | Compliance Warnings | Buch (Book) | 6–8pt | Mixed case, minimum 6pt |
+| CS-11 | Ingredients | Buch (Book) | 6–8pt | Mixed case |
+| CS-12 | Manufacturer Information | Buch (Book) | 6–8pt | Mixed case |
+| CS-13 | QR Label | Leicht (Light) | 6–7pt | All caps, tracked |
+| CS-14 | Barcode OCR Text | Buch (Book) | Per UPC-A spec | Numeric |
+| CS-15 | Lot / Batch / Best By | Buch (Book) | 6–7pt | Mixed case |
+| CS-16 | Nutrition Facts Headers | Söhne Halbfett | Per FDA spec | Bold per FDA |
+| — | Nutrition Facts Table Body | Helvetica Neue Regular/Bold | Per FDA spec | ✅ FDA compliance exception |
 
 ### 2.4 Trademark / Legal Symbols
 | Symbol | Treatment |

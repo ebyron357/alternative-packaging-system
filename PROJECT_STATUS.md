@@ -1,7 +1,7 @@
 # ALTERNATIVE™ LABEL PROGRAM — PROJECT STATUS
 **Program Director:** Claude (AI Production System)
 **Last Updated:** 2026-06-26
-**Overall Progress:** 35%
+**Overall Progress:** 40%
 
 ---
 
@@ -11,7 +11,7 @@
 |---|---|---|---|
 | 1 | Repository Audit | ✅ COMPLETE | 100% |
 | 2 | Brand System Verification | ✅ COMPLETE | 100% |
-| 3 | Illustrator Production Setup | 🟡 READY TO BEGIN | 0% — Blocked by Hero A vector + typeface confirmation |
+| 3 | Illustrator Production Setup | 🟡 IN PROGRESS | 25% — Typeface locked. Blocked by Hero A vector only. |
 | 4 | Master Label Construction | 🔴 BLOCKED | 0% |
 | 5 | Typography Refinement | 🔴 BLOCKED | 0% |
 | 6 | Compliance Integration | 🔴 BLOCKED | 0% |
@@ -72,7 +72,7 @@ Phase 3 begins immediately:
 | # | Blocker | Phase Blocked | Urgency |
 |---|---|---|---|
 | B-01 | Hero A vector not received | Phase 4 | CRITICAL |
-| B-02 | Typeface not explicitly confirmed (Futura?) | Phase 3 | HIGH |
+| B-02 | ~~Typeface not confirmed~~ | ~~Phase 3~~ | ✅ RESOLVED — Söhne locked DEC-023 |
 | B-03 | CMYK + Pantone color values not provided | Phase 3 | HIGH |
 | B-04 | Metallic Gold reproduction method not confirmed with Canworks | Phase 3 | CRITICAL |
 | B-05 | Compliance copy from legal counsel not received | Phase 6 | CRITICAL |
@@ -136,7 +136,7 @@ Full register in RISK_REGISTER.md
 
 | # | Decision | Impact | Urgency |
 |---|---|---|---|
-| D-01 | **Is the brand typeface Futura?** (Futura Bold + Futura Medium found in dieline) | Unlocks Phase 3 immediately | CRITICAL |
+| D-01 | ~~Typeface selection~~ | ✅ RESOLVED — Söhne locked DEC-023 | — |
 | D-02 | Contact Canworks — confirm metallic Gold capability (ink or foil?) | Unlocks color system | CRITICAL |
 | D-03 | Provide Hero A vector file | Unlocks Phase 4 | CRITICAL |
 | D-04 | Confirm distribution states | Unlocks compliance layers | HIGH |

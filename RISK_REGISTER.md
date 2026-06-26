@@ -23,16 +23,13 @@ Threshold: Score ≥ 15 = CRITICAL | 10–14 = HIGH | 5–9 = MEDIUM | 1–4 = L
 
 ---
 
-### R-02 — Typeface Not Explicitly Named in Brand Bible
+### R-02 — Typeface Not Explicitly Named in Brand Bible — CLOSED
 | Field | Value |
 |---|---|
-| **Description** | The Brand Bible defines the typographic direction in strong terms (editorial, architectural, premium, confident) but does not name a specific typeface. However, the Canworks dieline PDF contains Futura Bold and Futura Medium — the only typefaces embedded in the template. This is strong evidence but not explicit confirmation. |
-| **Impact** | 4 — If Futura is wrong, all typeset elements must be rebuilt. |
-| **Probability** | 2 — Futura is highly likely correct based on dieline evidence. |
-| **Risk Score** | 8 — MEDIUM |
-| **Mitigation** | Client must explicitly confirm: "The brand typeface is Futura." One-word answer resolves this risk. Until confirmed, the Illustrator character styles are set up with Futura as the working typeface, clearly labelled as pending confirmation. |
-| **Owner** | Client |
-| **Status** | 🟡 NEEDS CONFIRMATION — See FLAG-02 |
+| **Closed** | 2026-06-26 |
+| **Resolution** | Söhne (Klim Type Foundry) confirmed as official brand typeface — DEC-023. Futura assumption explicitly rejected. 17 Character Styles and 14 Paragraph Styles defined in BRAND_DESIGN_SYSTEM.md. |
+| **Previous Score** | 8 — MEDIUM |
+| **Status** | ✅ CLOSED |
 
 ---
 

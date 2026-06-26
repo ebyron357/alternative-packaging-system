@@ -1,8 +1,13 @@
-# ALTERNATIVE™ TYPOGRAPHY SYSTEM — RECOMMENDATION REPORT
-**Document:** Typography Selection for Approval
+# ALTERNATIVE™ TYPOGRAPHY SYSTEM — SELECTION RECORD
+**Document:** Typography System — Recommendation Report + Client Decision
 **Program Director:** Claude (AI Production System)
 **Date:** 2026-06-26
-**Status:** PENDING CLIENT SELECTION — Do not set type until one system is approved
+**Status:** ✅ LOCKED — SÖHNE SELECTED — DEC-023 — 2026-06-26
+
+> **DEC-023 LOCKED:** Söhne (Klim Type Foundry) is the official ALTERNATIVE™ brand typeface.
+> Selected by client. Effective immediately across all panels, all SKUs, all hierarchy levels.
+> No further typography selection required unless brand direction formally changes.
+> License: Commercial Print + Desktop from klim.co.nz — required before production delivery.
 
 ---
 
