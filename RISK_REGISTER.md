@@ -1,212 +1,213 @@
 # ALTERNATIVE™ LABEL PROGRAM — RISK REGISTER
 **Program Director:** Claude (AI Production System)
 **Last Updated:** 2026-06-26
-**Version:** 1.0
+**Version:** 2.0 — Updated after Brand Bible evaluation
 
 Risk ratings: Impact and Probability scored 1–5. Risk Score = Impact × Probability.
 Threshold: Score ≥ 15 = CRITICAL | 10–14 = HIGH | 5–9 = MEDIUM | 1–4 = LOW
 
 ---
 
-## ACTIVE RISKS
+## ACTIVE RISKS — CRITICAL
 
-### R-01 — Brand Bible Not Finalized
+### R-01 — Hero A Vector Not Received
 | Field | Value |
 |---|---|
-| **Description** | The Brand Bible has not been received. All typography, color, logo, spacing, and visual system decisions depend on it. |
-| **Impact** | 5 — Cannot set CMYK values, typefaces, or logo lockups. All Phase 3–6 work is blocked. |
-| **Probability** | 5 — Asset is confirmed missing. |
-| **Risk Score** | 25 — CRITICAL |
-| **Mitigation** | Phase 3 blocked until received. Strategy documented to allow instant execution upon receipt. |
-| **Owner** | Client |
-| **Status** | 🔴 OPEN |
-
----
-
-### R-02 — Master Brief Not Received
-| Field | Value |
-|---|---|
-| **Description** | ALTERNATIVE_MASTER_BRIEF.md has not been uploaded to the repository. |
-| **Impact** | 4 — Product spec, flavor direction, dose confirmation, and scope cannot be verified. |
-| **Probability** | 5 — Asset is confirmed missing. |
-| **Risk Score** | 20 — CRITICAL |
-| **Mitigation** | Phase 3 blocked until received. |
-| **Owner** | Client |
-| **Status** | 🔴 OPEN |
-
----
-
-### R-03 — Canworks Dieline Not Confirmed
-| Field | Value |
-|---|---|
-| **Description** | The production dieline from Canworks has not been received. Without exact flat wrap dimensions, no Illustrator document can be set up and no artwork can be built. |
-| **Impact** | 5 — Blocks Illustrator Phase 4 entirely. Any artwork built to assumed dimensions must be rebuilt. |
-| **Probability** | 5 — Asset is confirmed missing. |
-| **Risk Score** | 25 — CRITICAL |
-| **Mitigation** | Phase 4 hard-blocked. Do not begin Illustrator setup on assumed dimensions. |
-| **Owner** | Client / Canworks |
-| **Status** | 🔴 OPEN |
-
----
-
-### R-04 — ALTERNATIVE™ Wordmark Vector Not Available
-| Field | Value |
-|---|---|
-| **Description** | The ALTERNATIVE™ master wordmark in vector format (.ai / .eps, outlined) has not been received. |
-| **Impact** | 5 — Cannot build front panel composition. A re-created or rasterized logo is not acceptable for production. |
-| **Probability** | 5 — Asset is confirmed missing. |
-| **Risk Score** | 25 — CRITICAL |
-| **Mitigation** | Phase 5 blocked. Logo must be received from brand owner, not reconstructed. |
-| **Owner** | Client |
-| **Status** | 🔴 OPEN |
-
----
-
-### R-05 — SESSION™ Sub-brand Wordmark Not Available
-| Field | Value |
-|---|---|
-| **Description** | The SESSION™ sub-brand wordmark in vector format has not been received. |
-| **Impact** | 5 — Cannot build front panel hierarchy. |
-| **Probability** | 5 — Asset is confirmed missing. |
-| **Risk Score** | 25 — CRITICAL |
-| **Mitigation** | Phase 5 blocked alongside R-04. |
-| **Owner** | Client |
-| **Status** | 🔴 OPEN |
-
----
-
-### R-06 — UPC Number Not GS1 Registered
-| Field | Value |
-|---|---|
-| **Description** | A GS1-registered UPC barcode number has not been provided. Without it, no barcode can be generated. A barcode is required for retail distribution. |
-| **Impact** | 4 — Blocks Phase 7 barcode integration. Cannot ship to retail without a valid UPC. |
-| **Probability** | 4 — Not confirmed as registered or in process. |
-| **Risk Score** | 16 — CRITICAL |
-| **Mitigation** | Initiate GS1 registration immediately (gs1us.org). Timeline: 1–5 business days. Do not finalize label without confirmed number. |
-| **Owner** | Client |
-| **Status** | 🔴 OPEN |
-
----
-
-### R-07 — Compliance Copy Not Legally Approved
-| Field | Value |
-|---|---|
-| **Description** | State-specific THC beverage compliance copy has not been received from legal counsel. This includes age warnings, THC disclosures, impairment warnings, and state-mandated language. |
-| **Impact** | 5 — No label ships without this. Incorrect compliance copy creates regulatory and legal liability. |
+| **Description** | The Hero A is the most sacred brand element. The Brand Bible states only the approved vector may be used — it must never be recreated. The vector has not been received. |
+| **Impact** | 5 — Cannot build front panel. Phase 3 (Illustrator Setup) can begin structure, but Phase 4 (Master Construction) is fully blocked without Hero A. |
 | **Probability** | 5 — Confirmed missing. |
 | **Risk Score** | 25 — CRITICAL |
-| **Mitigation** | Compliance layer in Illustrator will be built as a placeholder structure. Only counsel-approved copy is placed in the final layer. |
+| **Mitigation** | Reserve Hero A layer (03_BRAND) in Illustrator with correct scale placeholder. Do not proceed to Phase 4 without the vector. |
+| **Owner** | Client |
+| **Status** | 🔴 OPEN |
+
+---
+
+### R-02 — Typeface Not Explicitly Named in Brand Bible
+| Field | Value |
+|---|---|
+| **Description** | The Brand Bible defines the typographic direction in strong terms (editorial, architectural, premium, confident) but does not name a specific typeface. However, the Canworks dieline PDF contains Futura Bold and Futura Medium — the only typefaces embedded in the template. This is strong evidence but not explicit confirmation. |
+| **Impact** | 4 — If Futura is wrong, all typeset elements must be rebuilt. |
+| **Probability** | 2 — Futura is highly likely correct based on dieline evidence. |
+| **Risk Score** | 8 — MEDIUM |
+| **Mitigation** | Client must explicitly confirm: "The brand typeface is Futura." One-word answer resolves this risk. Until confirmed, the Illustrator character styles are set up with Futura as the working typeface, clearly labelled as pending confirmation. |
+| **Owner** | Client |
+| **Status** | 🟡 NEEDS CONFIRMATION — See FLAG-02 |
+
+---
+
+### R-03 — Canworks Dieline Art Area Not Confirmed
+| Field | Value |
+|---|---|
+| **Description** | The dieline PDF was received. The full page dimensions are confirmed (182.22mm × 148.00mm). However, the exact art area, safe zone insets, seam position, and bleed verification require opening the source file in Illustrator. The PDF cannot be rendered without poppler. |
+| **Impact** | 4 — Any artwork placed before the art area is confirmed may need to be repositioned. |
+| **Probability** | 2 — The Brand Bible confirms the trim and bleed values directly. Risk is limited to seam position. |
+| **Risk Score** | 8 — MEDIUM |
+| **Mitigation** | Open the Canworks PDF in Illustrator as the first action in Phase 3. Confirm all dimensions and record seam position before placing any artwork. |
+| **Owner** | Program Director |
+| **Status** | 🟡 MONITORING — Requires Illustrator session |
+
+---
+
+### R-04 — Metallic Gold Reproduction Method Not Confirmed
+| Field | Value |
+|---|---|
+| **Description** | Metallic Gold is Brand Law. The Brand Bible confirms it is used for the Hero A and premium accents. Standard CMYK process printing cannot reproduce true metallic. Canworks must confirm whether metallic ink or foil is available. |
+| **Impact** | 5 — If metallic reproduction is unavailable, the Gold brand identity cannot be honored. This requires a client decision before design begins. |
+| **Probability** | 3 — Printer capability not yet confirmed. |
+| **Risk Score** | 15 — CRITICAL |
+| **Mitigation** | Contact Canworks immediately. Confirm: (1) Is metallic ink available? (2) Is foil stamping available? (3) What is the Pantone Metallic reference for Gold? Client must approve reproduction method before Phase 3 layout begins. |
+| **Owner** | Client / Canworks |
+| **Status** | 🔴 OPEN — REQUIRES IMMEDIATE RESOLUTION |
+
+---
+
+### R-05 — Compliance Copy Not Received from Legal Counsel
+| Field | Value |
+|---|---|
+| **Description** | All compliance warnings, state-specific THC language, age restrictions, and impairment warnings must be approved by legal counsel before being placed on the label. None have been received. |
+| **Impact** | 5 — No label ships without this. Incorrect compliance language creates regulatory and legal liability. |
+| **Probability** | 5 — Confirmed missing. |
+| **Risk Score** | 25 — CRITICAL |
+| **Mitigation** | Compliance layer (06_COMPLIANCE) built with correct formatting and placeholder text only. Real copy placed only after counsel approval. |
 | **Owner** | Legal Counsel / Client |
 | **Status** | 🔴 OPEN |
 
 ---
 
-### R-08 — Nutrition Facts Data Not Received
+### R-06 — Manufacturer Information Not Received
 | Field | Value |
 |---|---|
-| **Description** | Certified lab analysis / nutrition facts data has not been received from the manufacturer. Cannot build an accurate FDA-compliant Nutrition Facts panel without it. |
-| **Impact** | 4 — Blocks Phase 7. Estimated or placeholder nutrition values cannot appear on a production label. |
-| **Probability** | 5 — Confirmed missing. |
-| **Risk Score** | 20 — CRITICAL |
-| **Mitigation** | Panel layout will be built to the correct FDA format with placeholder values. Actual values are dropped in when received. |
-| **Owner** | Manufacturer / Client |
+| **Description** | Manufacturer name and full mailing address are required on the label by federal law. Not yet received. |
+| **Impact** | 4 — Label cannot be finalized without this. |
+| **Probability** | 4 — Not provided. |
+| **Risk Score** | 16 — CRITICAL |
+| **Mitigation** | Manufacturer info layer (06_COMPLIANCE) holds placeholder. No production file ships without this confirmed. |
+| **Owner** | Client / Manufacturer |
 | **Status** | 🔴 OPEN |
 
 ---
 
-### R-09 — Typeface Print License Not Confirmed
+### R-07 — QR Destination URL Not Live
 | Field | Value |
 |---|---|
-| **Description** | The Brand Bible typefaces have not been received, and print license status is unknown. Some typeface licenses (web, desktop) do not include commercial print. |
-| **Impact** | 3 — If print license is absent, typeface must be swapped, affecting visual system. |
-| **Probability** | 3 — Unknown until Brand Bible is received. |
-| **Risk Score** | 9 — MEDIUM |
-| **Mitigation** | Upon Brand Bible receipt, immediately verify print license for all specified typefaces. |
-| **Owner** | Client / Type Foundry |
+| **Description** | The QR CTA is confirmed ("SCAN FOR LAB RESULTS & PRODUCT INFO"). The destination URL has not been provided. The QR cannot be generated without a confirmed, live URL. |
+| **Impact** | 3 — Blocks QR finalization. Layout can be built with placeholder QR. |
+| **Probability** | 4 — URL not yet provided. |
+| **Risk Score** | 12 — HIGH |
+| **Mitigation** | Build QR placeholder in 07_CODES layer at correct size. Generate final QR only when URL is confirmed and live. |
+| **Owner** | Client / Development |
+| **Status** | 🔴 OPEN |
+
+---
+
+### R-08 — Distribution States Not Confirmed
+| Field | Value |
+|---|---|
+| **Description** | Which US states this product will be sold in drives the compliance layer requirements. Some states have unique mandatory language. Without a confirmed state list, compliance layers cannot be completed. |
+| **Impact** | 4 — Incomplete compliance layers. |
+| **Probability** | 4 — Not provided. |
+| **Risk Score** | 16 — CRITICAL |
+| **Mitigation** | Build universal compliance layer first. State-specific sublayers added when distribution list is confirmed. |
+| **Owner** | Client |
+| **Status** | 🔴 OPEN |
+
+---
+
+### R-09 — Micronutrients Not Confirmed on Nutrition Panel
+| Field | Value |
+|---|---|
+| **Description** | Vitamin D, Calcium, Iron, and Potassium values were not shown on the Nutrition Facts panel image. FDA requires disclosure if present. If all are 0% DV, they may be omitted in certain panel formats. Manufacturer must confirm. |
+| **Impact** | 2 — Small change if values are all 0. Medium if any are non-zero (requires FDA panel redesign). |
+| **Probability** | 2 — Likely all 0 given the extremely clean formula. |
+| **Risk Score** | 4 — LOW |
+| **Mitigation** | Build Nutrition Facts panel with micronutrient rows. Client/manufacturer confirms values before Phase 6 gate. |
+| **Owner** | Manufacturer / Client |
 | **Status** | 🟡 MONITORING |
 
 ---
 
-### R-10 — QR Scanability on Curved Surface
+### R-10 — Ingredient Terminology Inconsistency
 | Field | Value |
 |---|---|
-| **Description** | QR codes on curved cylindrical surfaces can fail to scan if the module density is too high, the size is too small, or the quiet zone is compressed. |
-| **Impact** | 3 — A non-scanning QR on a shipped product is a quality failure. |
-| **Probability** | 2 — Risk is mitigated by design spec (Section 8 of Execution Plan). |
-| **Risk Score** | 6 — MEDIUM |
-| **Mitigation** | QR must be minimum 20×20mm, Error Correction Level H, tested on a curved physical mock-up before Gate 6 approval. |
-| **Owner** | Program Director |
-| **Status** | 🟡 MONITORING |
+| **Description** | Passion Fruit panel reads "Hemp Derived THC." Lychee SKU reads "Hemp Derived Delta 9 THC." Syrup reads "100% Hemp-Derived Delta 9 THC Distillate." Three products, three different formulations of the same ingredient. Some states require "Delta-9 THC" specifically. |
+| **Impact** | 4 — If incorrect term is used, regulatory liability exists in certain states. |
+| **Probability** | 3 — Inconsistency confirmed across existing assets. |
+| **Risk Score** | 12 — HIGH |
+| **Mitigation** | Legal counsel must confirm exact legally correct ingredient term for each distribution state. Do not finalize ingredient copy without counsel sign-off. See FLAG-02. |
+| **Owner** | Legal Counsel / Client |
+| **Status** | 🔴 OPEN |
 
 ---
 
 ### R-11 — Press Gamut Narrower Than Design Assumptions
 | Field | Value |
 |---|---|
-| **Description** | Can printing (typically dry offset or digital direct-to-can) has a narrower color gamut than standard CMYK sheet-fed offset. Colors that look correct on screen or in proofing may be out of gamut on the final can. |
-| **Impact** | 4 — Color mismatch on a luxury brand is a critical failure. Matte Black must be true. Metallic Gold must be consistent. |
-| **Probability** | 3 — A known risk for all can printing projects. |
+| **Description** | Can printing has a narrower color gamut than standard CMYK offset. Matte Black and Warm White must be confirmed against the printer's actual gamut. |
+| **Impact** | 4 — Color mismatch on a luxury brand is a critical failure. |
+| **Probability** | 3 — Known risk for all can printing projects. |
 | **Risk Score** | 12 — HIGH |
-| **Mitigation** | Request Canworks ICC color profile and press proof specification before locking final CMYK values. All colors are confirmed against the printer's actual gamut. |
+| **Mitigation** | Request Canworks ICC color profile before locking CMYK values. All colors confirmed against printer gamut. |
 | **Owner** | Program Director / Canworks |
 | **Status** | 🟡 MONITORING |
 
 ---
 
-### R-12 — Seam Placement Conflicts With Design Elements
+### R-12 — QR Scanability on Curved Surface
 | Field | Value |
 |---|---|
-| **Description** | The can seam is a physical join point on the flat wrap. If the seam falls within a critical typographic or visual element, it will distort the design on the finished can. |
-| **Impact** | 3 — Seam through a wordmark or hero element is a production failure. |
-| **Probability** | 2 — Manageable through proper dieline review before layout begins. |
+| **Description** | QR codes on cylindrical surfaces can fail to scan if improperly sized or positioned. |
+| **Impact** | 3 — Non-scanning QR on a shipped product is a quality failure. |
+| **Probability** | 2 — Mitigated by spec (Level H, 20mm min, dark on light). |
 | **Risk Score** | 6 — MEDIUM |
-| **Mitigation** | Seam location confirmed on Canworks dieline before Phase 5 begins. Brand elements placed with minimum 10mm clearance from seam. |
+| **Mitigation** | Physical curved mock-up scan test required at Gate 5. |
 | **Owner** | Program Director |
 | **Status** | 🟡 MONITORING |
 
 ---
 
-### R-13 — State Regulatory Change Post-Production
+### R-13 — Seam Placement vs. Design Elements
 | Field | Value |
 |---|---|
-| **Description** | THC beverage regulations are actively evolving in multiple US states. A regulatory change after production could render shipped compliance copy incorrect. |
-| **Impact** | 4 — Regulatory non-compliance is a business and legal risk. |
-| **Probability** | 2 — Possible but not predictable. |
-| **Risk Score** | 8 — MEDIUM |
-| **Mitigation** | Layer-based state compliance system in Illustrator enables rapid reprint of a specific state variant without full redesign. Distribution state list reviewed against current regulations at press approval gate. |
-| **Owner** | Legal Counsel / Client |
-| **Status** | 🟡 MONITORING |
-
----
-
-### R-14 — Hero A Visual Not Yet Defined
-| Field | Value |
-|---|---|
-| **Description** | The execution plan references "Hero A" as a sacred brand element. The nature, format, and specification of Hero A has not been confirmed or received. |
-| **Impact** | 5 — If Hero A is the primary visual element on the label, its absence blocks the entire front panel design. |
-| **Probability** | 4 — Not confirmed as existing in final form. |
-| **Risk Score** | 20 — CRITICAL |
-| **Mitigation** | Confirm Hero A status and format as part of Brand Bible review. If Hero A is a commissioned illustration or custom mark, confirm delivery timeline immediately. |
-| **Owner** | Client / Creative Director |
-| **Status** | 🔴 OPEN |
-
----
-
-### R-15 — Gold Metallic Reproduction on Matte Can Surface
-| Field | Value |
-|---|---|
-| **Description** | "Metallic Gold" as a brand color requires either a Pantone metallic ink, a hot foil stamp, or a metallic substrate — it cannot be reproduced by standard CMYK process printing on a matte can surface. |
-| **Impact** | 4 — If Gold is a non-negotiable brand element, the print method must support it. If Canworks cannot apply foil or metallic ink, the Gold identity cannot be faithfully reproduced. |
-| **Probability** | 3 — Printer capability not yet confirmed. |
-| **Risk Score** | 12 — HIGH |
-| **Mitigation** | Confirm with Canworks immediately: (1) Is metallic ink available? (2) Is foil stamping available? (3) What is the Gold reference — Pantone 871 C, 876 C, or custom? If metallic ink/foil is unavailable, client must approve an alternative Gold reproduction strategy before design begins. |
-| **Owner** | Program Director / Canworks / Client |
-| **Status** | 🔴 OPEN — REQUIRES IMMEDIATE RESOLUTION |
+| **Description** | The can seam falls at a specific point on the flat wrap. If the seam conflicts with a critical design element, it will distort on the finished can. |
+| **Impact** | 3 — Seam through a wordmark or Hero A is a production failure. |
+| **Probability** | 2 — Manageable if confirmed before layout. |
+| **Risk Score** | 6 — MEDIUM |
+| **Mitigation** | Confirm seam location in Illustrator at start of Phase 3. Brand elements placed minimum 10mm from seam. |
+| **Owner** | Program Director |
+| **Status** | 🟡 MONITORING — Requires Illustrator session |
 
 ---
 
 ## CLOSED RISKS
-None yet.
+
+### R-CLOSED-01 — UPC Number Not Registered
+| Field | Value |
+|---|---|
+| **Closed:** | 2026-06-26 |
+| **Resolution:** | UPC 860013732455 confirmed in Brand Bible. |
+| **Previous Status:** | CRITICAL |
+
+### R-CLOSED-02 — QR CTA Copy Unknown
+| Field | Value |
+|---|---|
+| **Closed:** | 2026-06-26 |
+| **Resolution:** | "SCAN FOR LAB RESULTS & PRODUCT INFO" confirmed in Brand Bible. |
+| **Previous Status:** | MEDIUM |
+
+### R-CLOSED-03 — Website URL Unknown
+| Field | Value |
+|---|---|
+| **Closed:** | 2026-06-26 |
+| **Resolution:** | AlternativeBev.com confirmed in Brand Bible. |
+| **Previous Status:** | MEDIUM |
+
+### R-CLOSED-04 — Hero Visual Direction Unknown (Option A/B/C)
+| Field | Value |
+|---|---|
+| **Closed:** | 2026-06-26 |
+| **Resolution:** | Brand Bible prohibits photography and fruit illustrations. The label relies on typography, composition, and the Hero A only. Direction is confirmed as typographic/compositional — no illustration. |
+| **Previous Status:** | MEDIUM |
 
 ---
 
@@ -214,12 +215,13 @@ None yet.
 
 | Score | Count | Status |
 |---|---|---|
-| CRITICAL (≥15) | 9 | All Open |
-| HIGH (10–14) | 2 | Monitoring |
-| MEDIUM (5–9) | 4 | Monitoring |
-| LOW (<5) | 0 | — |
-| **TOTAL** | **15** | |
+| CRITICAL (≥15) | 5 | All Open |
+| HIGH (10–14) | 3 | All Open |
+| MEDIUM (5–9) | 3 | Monitoring |
+| LOW (<5) | 1 | Monitoring |
+| CLOSED | 4 | Resolved |
+| **TOTAL ACTIVE** | **12** | |
 
 ---
 
-*Risk register reviewed and updated after every phase gate. New risks added as identified.*
+*Risk register reviewed and updated after every phase gate.*

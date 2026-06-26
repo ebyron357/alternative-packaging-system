@@ -1,233 +1,274 @@
-# ALTERNATIVE™ LABEL PROGRAM — LABEL SPECIFICATION
+# ALTERNATIVE™ LABEL SPECIFICATION
 **Document:** Official Production Specification
-**Product:** ALTERNATIVE™ SESSION™ 5MG Passion Fruit
+**Product:** ALTERNATIVE™ SESSION™ 5MG THC Per Can — Passion Fruit
 **Format:** 12 oz Sleek Can / Flat Wrap Label
 **Program Director:** Claude (AI Production System)
 **Last Updated:** 2026-06-26
-**Version:** 1.0
+**Version:** 2.0 — Updated from Brand Bible evaluation
 
-Values marked [LOCK REQUIRED] are directionally documented but require Brand Bible or client confirmation before being set in Illustrator.
+Values marked [LOCK REQUIRED] require additional confirmation before Illustrator finalizes that element.
+All other values are confirmed from Brand Bible Version 1.0 or product data received.
 
 ---
 
 ## PART 1 — PHYSICAL SPECIFICATION
 
 ### 1.1 Can Format
-| Spec | Value | Source |
+| Spec | Value | Status |
 |---|---|---|
-| Can type | Sleek Can | Brief |
-| Volume | 12 FL OZ (355 mL) | Brief |
-| Label type | Flat wrap, 360° | Brief |
-| Supplier | Canworks | Brief |
-| Dieline file | Not yet received | Asset Inventory |
+| Can type | Sleek Can | ✅ CONFIRMED |
+| Volume | 12 FL OZ (355 mL) | ✅ CONFIRMED |
+| Label type | Flat wrap, 360° | ✅ CONFIRMED |
+| Supplier | Canworks | ✅ CONFIRMED |
+| Dieline file | Received (PDF, 13 pages) | ✅ CONFIRMED |
 
 ### 1.2 Flat Wrap Dimensions
-| Spec | Value | Source |
+| Spec | Value | Status |
 |---|---|---|
-| Artboard width | [LOCK REQUIRED] mm | Canworks dieline |
-| Artboard height | [LOCK REQUIRED] mm | Canworks dieline |
-| Bleed | [LOCK REQUIRED] mm (typically 3mm) | Canworks dieline |
-| Safe zone inset | [LOCK REQUIRED] mm (min 3mm from trim) | Canworks dieline |
-| Brand element exclusion zone | 5mm inside safe zone | Execution Plan |
-| Seam location | [LOCK REQUIRED] | Canworks dieline |
+| Trim width | 182.22 mm | ✅ CONFIRMED — Brand Bible + dieline |
+| Trim height | 148.00 mm | ✅ CONFIRMED — Brand Bible + dieline |
+| Bleed | 0.125" (3.175 mm) | ✅ CONFIRMED — Brand Bible |
+| Safe area | Per official Canworks template — do not modify | ✅ CONFIRMED |
+| Seam location | [LOCK REQUIRED — confirm from dieline in Illustrator] | 🔴 PENDING |
 
 ### 1.3 Print Specification
-| Spec | Value | Source |
+| Spec | Value | Status |
 |---|---|---|
-| Print method | [LOCK REQUIRED — confirm with Canworks] | Canworks |
-| Color mode | CMYK | Standard |
-| Max ink coverage | [LOCK REQUIRED — confirm with Canworks] | Canworks |
-| Raster resolution minimum | 300 DPI at final print size | Standard |
-| Minimum type size | 6pt | Regulatory / Standard |
-| Preferred minimum type size (compliance) | 7–8pt | Best practice |
+| Print method | [LOCK REQUIRED — confirm with Canworks] | 🔴 PENDING |
+| Color mode | CMYK | ✅ CONFIRMED |
+| Raster effects resolution | 300 PPI minimum | ✅ CONFIRMED |
+| Minimum type size | 6pt absolute floor | ✅ CONFIRMED |
+| Units in Illustrator | Millimeters | ✅ CONFIRMED |
 
 ### 1.4 Finish Specification
-| Spec | Value | Source |
+| Spec | Value | Status |
 |---|---|---|
-| Base finish | Matte [LOCK REQUIRED — confirm with Canworks] | Brand Bible direction |
-| Spot finish | Spot UV or foil on ALTERNATIVE™ wordmark [LOCK REQUIRED] | Design strategy |
-| Gold reproduction method | Metallic ink or foil [LOCK REQUIRED — Risk R-15] | Risk Register |
-| Metallic Gold reference | [LOCK REQUIRED — Pantone Metallic spec] | Brand Bible |
+| Base finish | Soft matte | ✅ CONFIRMED — Brand Bible |
+| Metallic Gold reproduction | Metallic ink or foil | 🔴 RISK R-15 — Canworks capability unconfirmed |
+| Spot finish | [LOCK REQUIRED — confirm method with Canworks] | 🔴 PENDING |
 
 ---
 
 ## PART 2 — BRAND SPECIFICATION
 
 ### 2.1 Product Architecture
-| Element | Value | Lock Status |
+| Element | Value | Status |
 |---|---|---|
-| Masterbrand | ALTERNATIVE™ | Confirmed |
-| Product line | SESSION™ | Confirmed |
-| Dose | 5MG THC per can | Confirmed (pending manufacturer verification) |
-| Flavor | PASSION FRUIT | Confirmed |
-| Volume | 12 FL OZ | Confirmed |
-| SKU code | ALT-SESSION-PF-5MG-12oz | Assigned |
+| Masterbrand | ALTERNATIVE™ | ✅ LOCKED |
+| Tagline | A NEW STATE OF MIND | ✅ LOCKED |
+| Experience line | SESSION™ | ✅ LOCKED |
+| Strength callout | 5MG THC PER CAN | ✅ LOCKED |
+| Official category | HEMP-DERIVED THC BEVERAGE | ✅ LOCKED |
+| Flavor | PASSION FRUIT | ✅ LOCKED |
+| Volume | 12 FL OZ (355 mL) | ✅ LOCKED |
+| Website | AlternativeBev.com | ✅ CONFIRMED — Brand Bible |
+| UPC number | 860013732455 | ✅ CONFIRMED — Brand Bible |
+| SKU code | ALT-SESSION-PF-5MG-12oz | ✅ ASSIGNED |
 
-### 2.2 Color System
-| Color | Role | CMYK | Pantone | Hex (digital ref only) |
+### 2.2 Color System — LOCKED
+| Color | Role | CMYK | Pantone | Rules |
 |---|---|---|---|---|
-| Matte Black | Primary background | [LOCK REQUIRED] | [LOCK REQUIRED] | [LOCK REQUIRED] |
-| Metallic Gold | Brand accent / luxury signal | Process: N/A — requires metallic | [LOCK REQUIRED] | [LOCK REQUIRED] |
-| Passion Fruit Accent | SKU-specific flavor color | [LOCK REQUIRED] | [LOCK REQUIRED] | [LOCK REQUIRED] |
-| Near-White / Cream | Type on dark field | [LOCK REQUIRED] | [LOCK REQUIRED] | [LOCK REQUIRED] |
+| Matte Black | Primary — entire package foundation | [LOCK REQUIRED — exact CMYK] | [LOCK REQUIRED] | No gradients. No gloss. No textures. Never replaced by flavor color. |
+| Metallic Gold | Accent — Hero A, dividers, emphasis | Process: N/A | [LOCK REQUIRED — Pantone Metallic] | Used sparingly. Never decorative. Requires metallic ink or foil. |
+| Warm White | All typography, compliance, information | [LOCK REQUIRED — exact CMYK] | [LOCK REQUIRED] | No blue-white. No gray. High contrast against Matte Black. |
+
+**Note:** CMYK and Pantone values for all three colors must be extracted from Brand Bible source files or confirmed by client. The names and roles above are locked from the Brand Bible. Exact ink values remain open.
 
 ### 2.3 Typography System
-| Role | Typeface | Weight | Size Range | Tracking | Lock Status |
-|---|---|---|---|---|---|
-| Display / Wordmark (ALTERNATIVE™) | [LOCK REQUIRED] | [LOCK REQUIRED] | Largest on label | [LOCK REQUIRED] | Brand Bible |
-| Sub-brand (SESSION™) | [LOCK REQUIRED] | [LOCK REQUIRED] | 2nd largest | [LOCK REQUIRED] | Brand Bible |
-| Descriptor (5MG, PASSION FRUIT, 12 FL OZ) | [LOCK REQUIRED] | [LOCK REQUIRED] | Mid hierarchy | +50/1000em min | Brand Bible |
-| Body / Compliance | [LOCK REQUIRED] | Regular | 6pt min | 0 | Brand Bible |
-| Nutrition Facts | Helvetica or FDA-approved | Bold / Regular | Per FDA spec | 0 | FDA Regulation |
+| Role | Typeface | Weight | Status |
+|---|---|---|---|
+| All display + body | [LOCK REQUIRED — Brand Bible names no specific typeface] | [LOCK REQUIRED] | 🟡 Futura Bold + Futura Medium identified in Canworks dieline — likely the brand typeface. Requires explicit client confirmation. See FLAG-02. |
+| Nutrition Facts panel | Helvetica or FDA-approved equivalent | Bold / Regular | ✅ Per FDA requirement |
 
 ### 2.4 Trademark / Legal Symbols
-| Symbol | Usage | Treatment |
-|---|---|---|
-| ™ | ALTERNATIVE™, SESSION™ | Manually scaled to cap height. Not default superscript. |
-| ® | If applicable | Per Brand Bible — confirm status of registrations |
-| 21+ Age Gate Symbol | Age restriction | Min 1/4" diameter. Vector. High contrast. |
+| Symbol | Treatment |
+|---|---|
+| ™ after ALTERNATIVE | Manually scaled to cap height — not default superscript |
+| ™ after SESSION | Manually scaled to cap height — not default superscript |
+| ® | Confirm registration status with client |
+| 21+ symbol | Minimum 1/4" diameter. Vector. High contrast. |
 
 ---
 
-## PART 3 — PANEL SPECIFICATION
+## PART 3 — CONFIRMED FRONT PANEL READING HIERARCHY
 
-### 3.1 Panel Map
-Panel widths are locked by Canworks dieline. Assignments are design intent until confirmed against dieline seam position.
+This is the official, Brand Bible-confirmed reading order. Nothing may interrupt this sequence.
+
+```
+LEVEL 1:  A NEW STATE OF MIND        (tagline — above Hero A)
+LEVEL 2:  Hero A                     (sacred symbol — dominates)
+LEVEL 3:  ALTERNATIVE™               (master wordmark)
+LEVEL 4:  SESSION™                   (experience line)
+LEVEL 5:  5MG THC PER CAN           (strength / dose)
+LEVEL 6:  HEMP-DERIVED THC BEVERAGE  (official category)
+LEVEL 7:  PASSION FRUIT              (flavor)
+LEVEL 8:  12 FL OZ (355 mL)         (net contents)
+```
+
+At 10 feet: Hero A + ALTERNATIVE™ + premium identity
+At 5 feet: Full brand architecture readable
+At 2 feet: All levels readable including dose and flavor
+
+---
+
+## PART 4 — PANEL STRUCTURE
 
 | Panel | Name | Primary Content |
 |---|---|---|
-| A | Front (primary face) | Brand architecture, Hero A, flavor expression |
-| B | Right (wraps to back) | Nutrition Facts, ingredient list, manufacturer |
-| C | Back | Compliance copy, age warning, QR code, website |
-| D | Left (wraps to front) | Additional legal, barcode, secondary messaging |
+| A | Front Brand Panel | Tagline, Hero A, ALTERNATIVE™, SESSION™, 5MG THC PER CAN, HEMP-DERIVED THC BEVERAGE, PASSION FRUIT, 12 FL OZ (355 mL) |
+| B | Information Panel | Active Ingredient, Nutrition Facts, Ingredients, Directions, Storage |
+| C | Compliance Panel | Warnings, Manufacturer info, Website, Batch, Lot, Best By |
+| D | Codes Panel | QR code + CTA, Barcode (UPC-A) |
 
-### 3.2 Front Panel (Panel A) — Content Specification
-
-**Reading order (forced by scale):**
-1. Color field / Hero A — desire response
-2. ALTERNATIVE™ — brand recognition
-3. SESSION™ — product tier
-4. 5MG / PASSION FRUIT — product identification
-5. 12 FL OZ — confirmation
-
-**Content allowed on Panel A:**
-- ALTERNATIVE™ wordmark
-- SESSION™ sub-brand lockup
-- Hero A visual element
-- 5MG callout
-- PASSION FRUIT flavor name
-- 12 FL OZ volume statement
-
-**Content NOT on Panel A:**
-- Barcode
-- QR code
-- Nutrition Facts
-- Full ingredient list
-- Manufacturer address
-- State compliance copy
-- Prop 65 (unless state-mandated on front — confirm with counsel)
-
-### 3.3 Compliance Panel (Panel C/D) — Content Specification
-
-**Required elements:**
-- THC per serving callout (mg)
-- THC per container callout (mg)
-- "Contains THC" statement
-- 21+ age restriction + symbol
-- "Keep out of reach of children"
-- "For use only by adults 21+"
-- "This product has not been evaluated by the FDA"
-- Impairment warning ("Do not operate heavy machinery")
-- State-specific warnings (layer-toggled per state)
-- Prop 65 (CA — if required)
-- Website / social
-- QR code + CTA
-
-### 3.4 Nutrition Panel (Panel B) — Content Specification
-- FDA-compliant Nutrition Facts panel (21 CFR 101.9)
-- Full ingredient list in INCI/regulatory order
-- Allergen statement
-- Manufacturer name and address
-- Distributor name and address (if applicable)
-- Net contents (12 FL OZ / 355 mL) — also appears on Panel A or D
-- Country of origin (if required)
-
-### 3.5 Barcode Panel — Content Specification
-- UPC-A barcode (vector)
-- Human-readable digits (8pt minimum)
-- Placed minimum 10mm from seam
-- Minimum 80% magnification
-- Light field behind barcode (minimum 5mm margin to any element)
+Note: Exact panel widths determined by Canworks dieline seam position — confirm in Illustrator before layout begins.
 
 ---
 
-## PART 4 — GRID SPECIFICATION
+## PART 5 — CONFIRMED PRODUCT DATA
 
-### 4.1 Vertical Zones (Front Panel)
-| Zone | Position | Primary Use |
+### 5.1 Nutrition Facts
+| Field | Value | Status |
 |---|---|---|
-| Cap zone | Top ~15% | ALTERNATIVE™ wordmark |
-| Expression zone | Middle ~45% | Hero A / flavor visual |
-| Information zone | Lower ~25% | SESSION™, 5MG, PASSION FRUIT |
-| Foot zone | Bottom ~15% | 12 FL OZ, secondary elements |
+| Servings per container | 1 | ✅ CONFIRMED |
+| Serving size | 12 Ounces (1 can) | ✅ CONFIRMED |
+| Calories | 0 | ✅ CONFIRMED |
+| Total Fat | 0g — 0% DV | ✅ CONFIRMED |
+| Saturated Fat | 0g — 0% DV | ✅ CONFIRMED |
+| Trans Fat | 0g | ✅ CONFIRMED |
+| Cholesterol | 0mg — 0% DV | ✅ CONFIRMED |
+| Sodium | 0mg — 0% DV | ✅ CONFIRMED |
+| Total Carbohydrate | 0g — 0% DV | ✅ CONFIRMED |
+| Dietary Fiber | 0g — 0% DV | ✅ CONFIRMED |
+| Total Sugar | 0g | ✅ CONFIRMED |
+| Added Sugars | 0g | ✅ CONFIRMED |
+| Protein | 0g | ✅ CONFIRMED |
+| Vitamin D / Calcium / Iron / Potassium | ⚠️ UNCONFIRMED | FLAG-01: Must confirm 0% DV or provide values |
 
-### 4.2 Optical Compensation
-All type and graphic elements within 8mm of the left and right wrap edges receive optical compensation treatment to account for cylindrical reading angle.
+### 5.2 Ingredient List
+```
+Carbonated Water, Natural Passion Fruit Flavor, Hemp Derived THC.
+```
+**⚠️ FLAG-02 — LEGAL REVIEW REQUIRED:** "Hemp Derived THC" must be confirmed as the legally correct term for all target distribution states. See RISK_REGISTER.md R-16.
+
+### 5.3 THC Dosage
+| Field | Value | Status |
+|---|---|---|
+| THC per serving | 5mg | ✅ CONFIRMED |
+| THC per container | 5mg | ✅ CONFIRMED |
 
 ---
 
-## PART 5 — ILLUSTRATOR FILE SPECIFICATION
+## PART 6 — QR & BARCODE
 
-### 5.1 Document Setup
+### 6.1 Barcode
+| Field | Value | Status |
+|---|---|---|
+| Format | UPC-A | ✅ CONFIRMED |
+| Number | 860013732455 | ✅ CONFIRMED — Brand Bible |
+| Human-readable digits | Present below bars | ✅ CONFIRMED |
+| Minimum magnification | 80% | ✅ CONFIRMED |
+| Orientation | Portrait (bars parallel to can axis) | ✅ CONFIRMED |
+| Minimum seam clearance | 10mm | ✅ CONFIRMED |
+
+### 6.2 QR Code
+| Field | Value | Status |
+|---|---|---|
+| Label / CTA | SCAN FOR LAB RESULTS & PRODUCT INFO | ✅ CONFIRMED — Brand Bible |
+| Destination URL | TBD | 🔴 MISSING |
+| Error correction | Level H | ✅ CONFIRMED |
+| Minimum size | 20mm × 20mm | ✅ CONFIRMED |
+| Format | Dark on light field, vector | ✅ CONFIRMED |
+
+---
+
+## PART 7 — INFORMATION & COMPLIANCE PANEL CONTENT
+
+### 7.1 Information Panel Required Elements
+- Active Ingredient (THC dosage)
+- Nutrition Facts (FDA-compliant panel)
+- Ingredient list
+- Directions for use
+- Storage instructions
+- Manufacturer name and address [LOCK REQUIRED]
+- Website: AlternativeBev.com
+- Batch number [LOCK REQUIRED — variable field]
+- Lot number [LOCK REQUIRED — variable field]
+- Best By date [LOCK REQUIRED — variable field]
+
+### 7.2 Compliance Panel Required Elements
+- All warnings (counsel-approved) [LOCK REQUIRED]
+- Manufacturer information [LOCK REQUIRED]
+- State-specific compliance copy [LOCK REQUIRED — distribution states unconfirmed]
+
+---
+
+## PART 8 — ILLUSTRATOR MASTER FILE SPECIFICATION
+
+### 8.1 Document Settings
 | Setting | Value |
 |---|---|
-| Application | Adobe Illustrator CC (latest) |
+| Application | Adobe Illustrator CC |
 | Color mode | CMYK |
-| Raster effects | 300 DPI |
-| Bleed | Per Canworks dieline |
+| Raster effects | 300 PPI |
 | Units | Millimeters |
-| Artboard | Single artboard = full flat wrap |
+| Artboard | Canworks 12 oz sleek can flat wrap — 182.22mm × 148.00mm |
+| Bleed | 0.125" (3.175mm) all sides |
+| Template | Official Canworks dieline |
 
-### 5.2 Required Document Styles
-| Style Type | Required Styles |
-|---|---|
-| Character Styles | Display Wordmark, Sub-brand, Descriptor, Body/Compliance, Nutrition Label, Legal Small |
-| Paragraph Styles | Display, Sub-brand, Descriptor, Compliance Body, Nutrition Facts, Ingredient List |
-| Graphic Styles | Spot UV mask, Foil mask, Clear field (behind compliance), Barcode background |
-| Swatches | All brand colors (global swatches), Spot colors defined as spot |
-
-### 5.3 Layer Structure
-See ALTERNATIVE_LABEL_EXECUTION_PLAN.md, Section 10 for complete 13-layer stack.
-
-### 5.4 File Naming
+### 8.2 Official Layer Structure — Brand Bible Specification
 ```
-Master:     ALT_SESSION_PF_5MG_12oz_MASTER_v[###].ai
-Proof PDF:  ALT_SESSION_PF_5MG_12oz_PROOF_v[###].pdf
-Pre-press:  ALT_SESSION_PF_5MG_12oz_PREPRESS_v[###].pdf
-State variant: ALT_SESSION_PF_5MG_12oz_[ST]_v[###].pdf
+01_GUIDES          (Dieline, Bleed, Safe Area — LOCKED)
+02_BACKGROUND      (Matte Black field)
+03_BRAND           (Hero A, ALTERNATIVE™, Tagline)
+04_PRODUCT         (SESSION™, THC callout, Category, Flavor, Net Contents)
+05_INFORMATION     (Nutrition Facts, Ingredients, Directions, Storage)
+06_COMPLIANCE      (Warnings, Manufacturer, Required legal copy)
+07_CODES           (QR code, Barcode)
+08_FINISHES        (Metallic Gold objects, Spot finish notes)
+09_EXPORT          (Production notes, Printer notes, Hidden export objects)
+```
+
+### 8.3 Required Styles
+**Character Styles:** Tagline, Brand, Experience, Strength, Flavor, Body Copy, Legal Copy, Nutrition, Warnings
+
+**Paragraph Styles:** Headings, Body, Legal, Nutrition, Ingredients, Warnings
+
+**Global Swatches:** Matte Black, Metallic Gold, Warm White, [Future flavor accents]
+
+### 8.4 File Naming
+```
+Master:     ALTERNATIVE_SESSION_5MG_PASSIONFRUIT_MASTER_v[###].ai
+Proof PDF:  ALTERNATIVE_SESSION_5MG_PASSIONFRUIT_PROOF_v[###].pdf
+Pre-press:  ALTERNATIVE_SESSION_5MG_PASSIONFRUIT_PREPRESS_v[###].pdf
+```
+
+### 8.5 Folder Structure
+```
+/Artwork
+/Exports
+  /PDF
+  /PNG
+/Fonts
+/Assets
+/Documentation
+/QA
 ```
 
 ---
 
-## PART 6 — PRODUCTION DELIVERY SPECIFICATION
+## PART 9 — DESIGN PROHIBITION LIST
 
-### 6.1 File Format for Printer
-- Primary: PDF/X-4 (or as specified by Canworks)
-- Backup: Native .ai with all fonts outlined and images embedded
-- Color profile: As specified by Canworks ICC
-
-### 6.2 Pre-Flight Requirements
-- Zero RGB colors
-- Zero images below 300 DPI
-- Zero missing fonts (all outlined or embedded)
-- Zero unresolved overprint issues
-- All bleed confirmed
-- Barcode grade: ANSI/ISO B or better
-- QR scan confirmed on curved mock-up
-
-### 6.3 Delivery Package Contents
-See ALTERNATIVE_LABEL_EXECUTION_PLAN.md, Section 11.7 for full package structure.
+The following must NEVER appear on this label:
+- Cannabis leaves or cannabis imagery
+- Fruit illustrations or photographs
+- Photography of any kind
+- Decorative icons (only required compliance/recycling icons)
+- Gradients on the Matte Black field
+- Gloss effects on the primary matte surface
+- Any visual element resembling cannabis, CBD, supplement, energy drink, or smoke shop packaging
+- AI-generated artwork that is visually generic or template-based
 
 ---
 
-*This specification is updated as assets are received and values are locked. Every [LOCK REQUIRED] field is resolved before Phase 4 begins.*
+*Every [LOCK REQUIRED] item is resolved before Phase 3 (Illustrator Setup) begins.*
+*This document is updated with each phase gate completion.*

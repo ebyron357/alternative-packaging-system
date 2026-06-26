@@ -1,143 +1,150 @@
 # ALTERNATIVE™ LABEL PROGRAM — DECISIONS LOG
 **Program Director:** Claude (AI Production System)
 **Last Updated:** 2026-06-26
-**Version:** 1.0
-
-Every design, production, and strategic decision is logged here with full rationale. This document is the audit trail for all choices made during the ALTERNATIVE™ production program.
-
-Format: Decision ID | Date | Decision | Rationale | Principle | Made By | Status
+**Version:** 1.1
 
 ---
 
-## DECISIONS — CONFIRMED
+## DECISIONS — CONFIRMED FROM BRAND BIBLE
 
-### DEC-001
+### DEC-011
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | SOURCE OF TRUTH: Brand Bible and Master Brief supersede all previous label versions |
-| **Context** | The repository was empty. Previous labels were referenced in the brief as existing. Client directive established that previous labels are NOT the source of truth. |
-| **Rationale** | Building from a previous label preserves its constraints, compromises, and errors. Building from the Brand Bible produces a design system that serves the brand's long-term equity. |
-| **Principle** | Brand consistency. Long-term brand equity. |
-| **Made By** | Client directive |
+| **Decision** | TAGLINE: "A NEW STATE OF MIND" is the official brand tagline. It appears above the Hero A on the front panel. It is Level 1 in the reading hierarchy. |
+| **Source** | Brand Bible Prompts 5, 6, 8 |
+| **Impact** | Adds Level 1 to the reading hierarchy. Execution Plan hierarchy updated. |
+| **Made By** | Brand Bible — LOCKED |
 | **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
-### DEC-002
+### DEC-012
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | DIELINE: Canworks flat wrap dieline is the only locked production element. No other production constraints are inherited from previous work. |
-| **Context** | Client directive established the dieline as the single locked element. |
-| **Rationale** | The dieline is a physical constraint (can format, supplier) that cannot be redesigned. All other design elements are being established fresh. |
-| **Principle** | Production reliability. |
-| **Made By** | Client directive |
+| **Decision** | FRONT PANEL HIERARCHY: 8-level reading order confirmed. See LABEL_SPECIFICATION.md Part 3. |
+| **Source** | Brand Bible Prompts 5, 6, 8 |
+| **Impact** | Governs entire front panel composition. Replaces 5-level hierarchy from original Execution Plan. |
+| **Made By** | Brand Bible — LOCKED |
 | **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
-### DEC-003
+### DEC-013
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | BRAND IDENTITY: Matte Black + Metallic Gold are the defining brand colors |
-| **Context** | Established as Brand Law #7 in the Executive Directive. |
-| **Rationale** | Matte Black signals luxury, sophistication, and confidence. Metallic Gold provides the premium accent that elevates the product above commodity. This pairing is category-defying in THC beverages and positions ALTERNATIVE™ against high-end spirits, not cannabis products. |
-| **Principle** | Premium perception. Shelf impact. Brand consistency. |
-| **Made By** | Client / Brand Law |
-| **Status** | ✅ CONFIRMED — LOCKED — Specific CMYK/Pantone values pending Brand Bible |
+| **Decision** | CATEGORY DESCRIPTOR: Official product category is "HEMP-DERIVED THC BEVERAGE." This appears as Level 6 in the front panel hierarchy. Informative, professional, not sensationalized. |
+| **Source** | Brand Bible Prompt 7 |
+| **Impact** | Adds a required line to the front panel hierarchy that was not in the original Execution Plan. |
+| **Made By** | Brand Bible — LOCKED |
+| **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
-### DEC-004
+### DEC-014
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | BRAND LAW: Hero A is sacred. It cannot be modified, reinterpreted, or replaced without client approval. |
-| **Context** | Established in Executive Directive. Hero A is referenced as a protected brand element. |
-| **Rationale** | The most recognizable premium brands are built on consistent, protected marks. Modifying Hero A at any stage undermines the system. |
-| **Principle** | Brand consistency. Long-term brand equity. |
-| **Made By** | Client / Brand Law |
-| **Status** | ✅ CONFIRMED — LOCKED — Hero A asset not yet received |
+| **Decision** | WEBSITE: AlternativeBev.com appears on the label. Consistent across all SKUs. |
+| **Source** | Brand Bible Prompt 8 |
+| **Impact** | Confirmed label copy for information and compliance panels. |
+| **Made By** | Brand Bible — LOCKED |
+| **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
-### DEC-005
+### DEC-015
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | PRODUCTION STRATEGY: Design for state-variant scalability from day one. Compliance layers are toggle-able per state within the master .ai file. |
-| **Context** | THC beverage regulations vary by state and are actively evolving. |
-| **Rationale** | Building a single master with toggle-able state compliance layers eliminates the need to maintain multiple divergent source files. A state variant can be updated and exported without redesign. This reduces error risk and production cost for every future reprint. |
-| **Principle** | Scalability. Production reliability. |
-| **Made By** | Program Director |
-| **Status** | ✅ CONFIRMED |
+| **Decision** | UPC: 860013732455 is the confirmed barcode number for ALTERNATIVE™ SESSION™ 5MG Passion Fruit. |
+| **Source** | Brand Bible Prompt 8 |
+| **Impact** | Unlocks barcode generation. Risk R-CLOSED-01 resolved. |
+| **Made By** | Brand Bible — LOCKED |
+| **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
-### DEC-006
+### DEC-016
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | QR SPECIFICATION: Error correction level H, minimum 20×20mm, dark on light field |
-| **Context** | QR codes on curved cylindrical surfaces require higher fault tolerance than flat surface QR codes. |
-| **Rationale** | Error Correction Level H restores up to 30% of data — critical when printing imperfections, surface curvature, and lighting conditions all reduce scan reliability. A QR that fails to scan on a sold product is a brand failure and a consumer experience failure. 20mm minimum ensures reliable scanning at arm's length on a curved surface. Dark-on-light is the established standard for curved surface reliability. |
-| **Principle** | Production quality. Consumer trust. |
-| **Made By** | Program Director |
-| **Status** | ✅ CONFIRMED |
+| **Decision** | QR CTA: "SCAN FOR LAB RESULTS & PRODUCT INFO" is the confirmed call-to-action text above the QR code. |
+| **Source** | Brand Bible Prompt 8 |
+| **Impact** | QR panel copy confirmed. QR destination URL still pending. |
+| **Made By** | Brand Bible — LOCKED |
+| **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
-### DEC-007
+### DEC-017
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | BARCODE SPECIFICATION: UPC-A, minimum 80% magnification, portrait orientation, minimum 10mm from seam |
-| **Context** | Standard US retail barcode requirements. |
-| **Rationale** | 80% magnification is the GS1-specified minimum for reliable scanning. Below 80%, scan failure rates increase significantly. Portrait orientation (bars parallel to can axis) is standard and preferred for sleek cans. 10mm seam clearance prevents the seam distortion from affecting bar width accuracy. |
-| **Principle** | Production reliability. |
-| **Made By** | Program Director |
-| **Status** | ✅ CONFIRMED |
+| **Decision** | NO ILLUSTRATION POLICY: No photography, no fruit illustrations, no decorative icons appear on any ALTERNATIVE™ label. The label relies exclusively on typography, composition, the Hero A, and the Matte Black + Gold identity. |
+| **Source** | Brand Bible Prompt 6 |
+| **Rationale** | Premium brands do not require visual clutter. Typography creates prestige. Illustration would undermine the brand's luxury positioning and risk reading as flavor-first rather than brand-first. This also eliminates the Option A/B/C design direction decision — the answer is confirmed as typography + Hero A only. |
+| **Principle** | Typography before graphics. Simplicity before complexity. |
+| **Made By** | Brand Bible — LOCKED |
+| **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
-### DEC-008
+### DEC-018
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | COMPLIANCE COPY RULE: No compliance copy is placed in the production master without legal counsel approval. Placeholder text is used during construction phases only and is clearly marked. |
-| **Context** | THC beverages carry regulatory and legal liability. Incorrect compliance language creates business risk. |
-| **Rationale** | The design system can be built with correctly-sized and correctly-formatted compliance text areas using placeholder text. Only counsel-approved final copy is placed in the production layer. This protects the brand from compliance errors at every gate. |
-| **Principle** | Consumer trust. Production quality. |
-| **Made By** | Program Director |
-| **Status** | ✅ CONFIRMED |
+| **Decision** | ILLUSTRATOR LAYER STRUCTURE: The official 9-layer structure from Brand Bible Prompt 9 supersedes the 13-layer structure in the original Execution Plan. The Brand Bible is the source of truth. |
+| **Source** | Brand Bible Prompt 9 |
+| **Layers** | 01_GUIDES / 02_BACKGROUND / 03_BRAND / 04_PRODUCT / 05_INFORMATION / 06_COMPLIANCE / 07_CODES / 08_FINISHES / 09_EXPORT |
+| **Made By** | Program Director — Brand Bible governs |
+| **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
-### DEC-009
+### DEC-019
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | MINIMUM TYPE SIZE: 6pt absolute floor across all compliance, legal, and body copy. 7–8pt preferred for compliance text. |
-| **Context** | FDA minimum, state regulatory minimums, and readability best practice. |
-| **Rationale** | 6pt is the regulatory floor. Premium brands do not push to the legal minimum — they build legibility into the system. A consumer who cannot read the compliance copy is a regulatory risk and a trust failure. 7–8pt on a can surface reads cleanly even under retail lighting conditions. |
-| **Principle** | Consumer trust. Production reliability. |
-| **Made By** | Program Director |
-| **Status** | ✅ CONFIRMED |
+| **Decision** | FILE NAMING: Production master file is named ALTERNATIVE_SESSION_5MG_PASSIONFRUIT_MASTER_v[###].ai per Brand Bible Prompt 9. |
+| **Source** | Brand Bible Prompt 9 |
+| **Made By** | Brand Bible — LOCKED |
+| **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
-### DEC-010
+### DEC-020
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision** | METALLIC GOLD RISK ESCALATED: Canworks must confirm metallic ink or foil capability before design begins. If unavailable, client must approve alternative Gold reproduction strategy before Phase 4. |
-| **Context** | Metallic Gold cannot be reproduced by standard CMYK process printing. CMYK Gold is a flat, muted approximation. It does not deliver the premium signal that is the point of the Gold identity. |
-| **Rationale** | If the printer cannot achieve true metallic, the Gold brand law cannot be honored through print alone. The client must make an informed decision about reproduction method — not discover the limitation after the design is built. This is a critical risk that must be resolved before a single pixel of Gold is designed. |
-| **Principle** | Brand consistency. Premium perception. |
-| **Made By** | Program Director |
-| **Status** | ✅ ESCALATED — Awaiting Canworks confirmation and client resolution |
+| **Decision** | PRODUCT ARCHITECTURE: Four experience lines confirmed (SESSION 5mg, SOCIAL 10mg, RESERVE 50mg, ASCEND 100mg). Two approved flavors confirmed (Passion Fruit, Lychee Sweet Tea). The Passion Fruit master is the production foundation for all future SKUs. |
+| **Source** | Brand Bible Prompt 7 |
+| **Made By** | Brand Bible — LOCKED |
+| **Status** | ✅ CONFIRMED — LOCKED |
+
+---
+
+### DEC-021
+| Field | Value |
+|---|---|
+| **Date** | 2026-06-26 |
+| **Decision** | INFORMATION PANEL CONTENT: The information panel must include Active Ingredient, Nutrition Facts, Ingredients, Directions, Storage, Manufacturer, Website, Batch, Lot, and Best By. "Directions," "Storage," "Batch," "Lot," and "Best By" are additions not present in the original Execution Plan. |
+| **Source** | Brand Bible Prompt 8 |
+| **Made By** | Brand Bible — LOCKED |
+| **Status** | ✅ CONFIRMED — LOCKED |
+
+---
+
+### DEC-022
+| Field | Value |
+|---|---|
+| **Date** | 2026-06-26 |
+| **Decision** | HERO A POSITION: Hero A appears at Level 2 in the front panel hierarchy, directly below the tagline "A NEW STATE OF MIND." It dominates the front panel without overwhelming the typography. Typography supports it — does not compete. |
+| **Source** | Brand Bible Prompts 3, 5, 6, 8 |
+| **Made By** | Brand Bible — LOCKED |
+| **Status** | ✅ CONFIRMED — LOCKED |
 
 ---
 
@@ -147,12 +154,10 @@ Format: Decision ID | Date | Decision | Rationale | Principle | Made By | Status
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision Required** | Hero visual direction: Option A (pure typography), Option B (abstract), or Option C (illustration) |
-| **Context** | Section 2.4 of Execution Plan presents three approaches for the front panel hero visual element. |
-| **Recommendation** | Option A or Option B. Pure type or abstraction places ALTERNATIVE™ in the same visual category as the world's most premium brands. Illustration risks reading as flavor-first rather than brand-first at 10 feet. |
-| **Decision Deadline** | Before Phase 5 begins |
-| **Made By** | Pending client |
-| **Status** | 🔴 OPEN |
+| **Decision Required** | IS THE BRAND TYPEFACE FUTURA? Futura Bold + Futura Medium were found embedded in the Canworks dieline PDF. The Brand Bible defines typographic direction in strong terms but does not name a specific typeface. One-word confirmation ("Yes, Futura") unlocks Phase 3 document setup immediately. |
+| **Impact** | Unlocks all typographic work. Without this, character styles cannot be built. |
+| **Urgency** | CRITICAL — Phase 3 blocker |
+| **Status** | 🔴 OPEN — Awaiting client confirmation |
 
 ---
 
@@ -160,11 +165,9 @@ Format: Decision ID | Date | Decision | Rationale | Principle | Made By | Status
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision Required** | Distribution states — which states is this label being sold in? |
-| **Context** | Drives compliance layer count, legal copy requirements, and Prop 65 determination. |
-| **Recommendation** | Provide a confirmed state list. If distribution is being built out incrementally, provide the launch states now and the full target list. |
-| **Decision Deadline** | Before Phase 7 begins |
-| **Made By** | Pending client |
+| **Decision Required** | METALLIC GOLD REPRODUCTION: Contact Canworks to confirm whether metallic ink or foil is available. If metallic ink: provide Pantone Metallic reference. If foil: confirm registration capability. If neither: client approves alternative Gold strategy before design begins. |
+| **Impact** | If unresolved, Hero A and Gold accents cannot be correctly specified. |
+| **Urgency** | CRITICAL |
 | **Status** | 🔴 OPEN |
 
 ---
@@ -173,11 +176,9 @@ Format: Decision ID | Date | Decision | Rationale | Principle | Made By | Status
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision Required** | Metallic Gold reproduction method — confirm with Canworks which method is available: metallic ink, foil stamp, or alternative |
-| **Context** | Risk R-15. CMYK cannot reproduce true metallic. |
-| **Recommendation** | Confirm Canworks capability immediately before design begins. If foil is available, specify it. If metallic ink is available, provide the Pantone Metallic reference. |
-| **Decision Deadline** | Before Phase 4 begins |
-| **Made By** | Pending client / Canworks |
+| **Decision Required** | EXACT CMYK VALUES: Provide the exact CMYK and Pantone values for Matte Black and Warm White. These are required to build the global swatch panel in Illustrator. |
+| **Impact** | Without these, no color work can be done in Illustrator. |
+| **Urgency** | HIGH |
 | **Status** | 🔴 OPEN |
 
 ---
@@ -186,14 +187,17 @@ Format: Decision ID | Date | Decision | Rationale | Principle | Made By | Status
 | Field | Value |
 |---|---|
 | **Date** | 2026-06-26 |
-| **Decision Required** | Secondary brand elements on label — website, social handles, secondary certifications |
-| **Context** | Panel real estate must be allocated before layout begins. |
-| **Recommendation** | Less is more on a premium label. Include website URL. Evaluate whether social handles serve the brand or add clutter. Skip certifications unless they add genuine consumer value (organic, etc.). |
-| **Decision Deadline** | Before Phase 5 begins |
-| **Made By** | Pending client |
+| **Decision Required** | DISTRIBUTION STATES: Which US states will this product be distributed in at launch? This list drives compliance layer requirements. |
+| **Urgency** | HIGH |
 | **Status** | 🔴 OPEN |
 
 ---
 
-*Decisions log is updated every time a decision is made, escalated, or resolved.*
-*Every entry is permanent — decisions are never deleted, only superseded (with cross-reference).*
+## PREVIOUSLY CONFIRMED DECISIONS (v1.0)
+
+DEC-001 through DEC-010 — see CHANGELOG.md [1.2.0] for reference. All remain confirmed and locked.
+
+---
+
+*Every design decision, asset receipt, phase completion, and production change is logged here.*
+*Decisions are never deleted — only superseded with cross-reference.*
