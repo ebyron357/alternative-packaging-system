@@ -4,6 +4,22 @@
 
 ---
 
+## [2.4.0] — 2026-06-27 — Full master rebuilt on locked front-panel language
+
+### Files Created
+- Artwork/ALTERNATIVE_SESSION_5MG_PASSIONFRUIT_MASTER_v007.svg — complete 4-panel
+  flat-wrap master integrating the LOCKED front panel (clean geometric Hero A,
+  flat elite gold, editorial typography) with information / compliance / codes panels
+- Exports/PNG + Exports/PDF v007 proofs
+
+### Notes
+- Dieline preserved (182.22x148mm trim, 0.125in bleed); flat matte black; no effects
+- Side panels held in muted palette so the brand panel dominates the wrap
+- UPC-A 860013732455 (valid). Open items still flagged inline: R-05/R-06/R-07/R-10/FLAG-01
+- Typography temp (Sohne pending); gold a screen sim of R-04 finish
+
+---
+
 ## [2.3.0] — 2026-06-26 — Phase 3 Placeholder Strategy / Production Setup Document
 
 ### Directive Applied
